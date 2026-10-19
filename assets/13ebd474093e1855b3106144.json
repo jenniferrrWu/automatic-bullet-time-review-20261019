@@ -1,0 +1,30 @@
+{
+  "case_id": "case11_man_contemporary_dance",
+  "model": "redirector",
+  "stage": 3,
+  "status": "visual_failed",
+  "model_version": "official ReDirector step20000 + PAI/Wan2.1-Fun-V1.1-1.3B-Control-Camera",
+  "strict_stage_pass": false,
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/redirector/stage3/case11_man_contemporary_dance/native.mp4",
+  "seed": 42,
+  "input_mode": "source post-t* 81 frames as cond_video + ACTUAL native Stage2 final frame as separate first_frame + constant target C2W",
+  "source_post_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case11_man_contemporary_dance/source_post_81frames.mp4",
+  "source_post_frames_including_anchor": [
+    236,
+    316
+  ],
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/redirector/stage2/case11_man_contemporary_dance/native.mp4",
+  "stage2_actual_final_frame": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case11_man_contemporary_dance/stage2_actual_final_native.png",
+  "stage2_endpoint_input_field": "first_frame (official pipeline parameter; not a hard anchor guarantee)",
+  "stage2_actual_last_frame_supplied": true,
+  "stage2_actual_visual_endpoint_pose_calibrated": false,
+  "stage2_endpoint_hard_enforced": false,
+  "camera_path_file": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/camera/redirector/case11_man_contemporary_dance_stage3_constant_actual_stage2_endpoint.json",
+  "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+  "negative_prompt": "",
+  "source_intrinsics_calibrated": false,
+  "initial_visual_review": {"frames_checked": [0, 40, 80], "source_action_order": "partial: native output follows broad kick -> arms-up -> landing/side-step sequence of source frames 236,276,316, but pose details are changed", "new_view_start": "fail: Stage3 first frame does not reproduce actual Stage2 last-frame viewpoint or body pose", "camera_static": "roughly fixed within Stage3, but wall letters and geometry morph", "identity_background": "same apparent dancer, yet wall text becomes gibberish and backdrop changes", "native_seam": "fail: Stage2 last vs Stage3 first side-by-side has major subject, camera and wall jump", "strict_stage3_pass": false, "seam_montage": "results/stage23_basemodel_v2_20261012/review_montages/redirector_case11_stage2last_vs_stage3first.png"},
+  "failure_reason": "",
+  "inference_s": 1225.18,
+  "peak_allocated_mib": 13433.2
+}

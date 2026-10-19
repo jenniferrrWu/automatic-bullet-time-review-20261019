@@ -1,0 +1,22 @@
+{
+  "case_id": "case04_person_water_jump", "status": "generated_pending_visual_review",
+  "model": "TriMotion official weights with isolated inference-only latent-anchor adapter",
+  "mode": "V2V: exact source frames525–605 + true new-round ReDirector Stage2 frame80 endpoint + identity relative camera",
+  "source_post_action_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/source_post/case04_person_water_jump.mp4",
+  "source_post_sha256": "c806c1fbc83902c157464bda6c2b033a9b34e8fd447a60195e2ee6e9911ac5d2",
+  "source_frame_range_inclusive": [525,605], "source_fps": 29.97002997, "source_resolution": [1920,1080],
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/redirector/stage2/case04_person_water_jump/native.mp4",
+  "stage2_native_video_sha256": "96f0817ead648b75c0aae59b83ea943673c75ee3ada2b13377b8dd2fe95ad3e9",
+  "stage2_native_endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/redirector/stage2/case04_person_water_jump/native_last_frame80.png",
+  "stage2_native_endpoint_sha256": "385e84750613425e9da612afb8355cfc43891cbe5ede5a9b24e37ca20bd04978",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case04_person_water_jump/redir_endpoint_latent_anchor_81f/native_pose.mp4",
+  "native_resolution": [672,384], "native_fps": 30, "native_frames": 81, "seed": 42, "sampler_steps": 50,
+  "timing_note": "81 source frames at29.97fps generated as81 frames at30fps, approximately matched timing; original spatial resolution not retained",
+  "camera_control": "identity relative pose per latent-frame sample, no absolute calibrated endpoint pose",
+  "sampling_variant": "custom inference-only first-VAE-time-latent pin after each official scheduler step; no output-frame replacement, code/weights unchanged",
+  "adapter_audit": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case04_person_water_jump/redir_endpoint_latent_anchor_81f/latent_anchor_audit.json",
+  "adapter_pin_count": 50,
+  "native_first_to_stage2_endpoint": {"method":"decoded RGB frame0 vs true Stage2 frame80 PNG resized bicubic to 672x384", "mae":6.061,"psnr_db":25.825},
+  "component_review": {"source_action_order":"generated native frames0/20/40/60/80 broadly retain source jumping and falling pose order; source still airborne at local frame80 so this window cannot test water entry", "endpoint_first_view":"conditioned on true native Stage2 terminal image with latent pin; RGB difference increased by VAE/resize/codec", "camera_static":"waterfall and rocks appear fixed at sampled frames; full review pending", "stage3_pass":null,"strict_stage23_seam_pass":null,"strict_three_stage_pass":false},
+  "diagnostic_contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case04_person_water_jump/redir_endpoint_latent_anchor_81f/diagnostic_contact.png"
+}

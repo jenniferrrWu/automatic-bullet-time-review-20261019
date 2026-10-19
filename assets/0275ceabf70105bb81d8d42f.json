@@ -1,0 +1,27 @@
+{
+  "case_id": "case13_woman_rooftop_dance",
+  "model": "World in World",
+  "stage": 3,
+  "status": "generated_pending_visual_review",
+  "strict_stage_pass": false,
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/wiw_multigpu_trial_20261013/raw/case13_direct_tstar_oneway30_stage23_cgar_2gpu_paramoffload_native.mp4",
+  "stage2_final_frame_index": 79,
+  "actual_stage2_terminal_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/inputs/case13_stage2_native_end_frame79.png",
+  "actual_stage2_terminal_sha256": "c97d939f095eeb2badfa8d86a760200cd8e9edb72c6aa89f2b6fb33d3a9b6384",
+  "source_post_frames": [
+    236,
+    319
+  ],
+  "common81_reference_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/source_post/case13_woman_rooftop_dance.mp4",
+  "source_action_condition_workspace": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/workspace/case13_stage3_actual_endpoint",
+  "actual_source_frames_numpy": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/workspace/case13_stage3_actual_endpoint/frames.npy",
+  "actual_source_video_latents": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/workspace/case13_stage3_actual_endpoint/latents.pt",
+  "source_original_frame_indices_manifest": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/workspace/case13_stage3_actual_endpoint/meta.json",
+  "source_resampling_note": "Actual conditioning is prepared frames/latents with16fps sample_idx in the manifest; common81 is not the input. Native output uses the first45 prepared source samples.",
+  "official_interface_limitation": "Official --edit requires same-framing image edits; new-view Stage2 terminal frame is outside that guarantee.",
+  "sampling_anchor_audit": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case13_woman_rooftop_dance/sampling_anchor_audit.json",
+  "postdecode_frame_replacement": false,
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case13_woman_rooftop_dance/case13_woman_rooftop_dance_anchor_v2.mp4",
+  "expected_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case13_woman_rooftop_dance/case13_woman_rooftop_dance_anchor_v2.mp4",
+  "inference_s": 383.0
+}

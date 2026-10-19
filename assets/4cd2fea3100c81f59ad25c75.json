@@ -1,0 +1,83 @@
+{
+  "model": "stp",
+  "stage": 2,
+  "case_id": "case02_person_rock_jump",
+  "status": "generated_pending_visual_review",
+  "strict_stage_pass": false,
+  "source_video": "/public/wufeier/automatic_bullet_time/inputs/review_candidates/person_rock_jump.mp4",
+  "source_tstar_frame": 6,
+  "source_frozen_image": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/inputs/static_source_stage2_20261014/stp/case02_person_rock_jump/effective_exact_tstar.png",
+  "source_tstar_sha256": "c4519e7c1deca1996c97a6d811e6951b42a563f6fdefb8389c1e46e0438c4f9f",
+  "input_video": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/inputs/static_source_stage2_20261014/stp/case02_person_rock_jump/exact_tstar_repeated81.mp4",
+  "input_mode": "81 identical exact source t* frames + camera orbit only + experimental first-latent source image anchor",
+  "official_weights_unchanged": true,
+  "postdecode_frame_replacement": false,
+  "seed": 42,
+  "steps": 50,
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case02_person_rock_jump/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+  "negative_prompt": "色调艳丽，过曝，细节模糊不清，字幕，风格，作品，画作，画面，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，杂乱的背景，三条腿，背景人很多，倒着走",
+  "negative_prompt_original": "色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走",
+  "negative_prompt_removed_terms": [
+    "静态",
+    "静止",
+    "静止不动的画面"
+  ],
+  "negative_prompt_filter_scope": "new remaining12 Stage2 STP only; exact Chinese-comma terms",
+  "pinned_scheduler_steps": 50,
+  "final_sigma": 0.0,
+  "inference_s": 1144.06,
+  "variant": "remaining12_exact_tstar_letterbox_stage2_20261015",
+  "source_record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp_static_source_anchor/stage2/case02_person_rock_jump.json",
+  "canonical_record": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/records/stp/stage2/case02_person_rock_jump.json",
+  "source_tstar_image": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/inputs/source_highlights/case02_person_rock_jump.png",
+  "source_width": 1920,
+  "source_height": 1080,
+  "source_fps": "30000/1001",
+  "t_star_frame_zero_based": 6,
+  "source_post_video_provided": false,
+  "source_motion_condition_provided": false,
+  "target_angle_deg": 30,
+  "target_direction": "rightward",
+  "numeric_camera_control_supplied": true,
+  "training_performed": false,
+  "execution_gpu": 5,
+  "dispatch_command": [
+    "/opt/conda/envs/PyTorch-2.4.1/bin/python",
+    "/public/wufeier/automatic_bullet_time/scripts/run_remaining12_stage2_models.py",
+    "--model",
+    "stp",
+    "--case",
+    "case02_person_rock_jump",
+    "--gpu",
+    "5"
+  ],
+  "aspect_transform": {
+    "kind": "aspect_preserving_resize_and_black_letterbox",
+    "source_wh": [
+      1920,
+      1080
+    ],
+    "model_canvas_wh": [
+      832,
+      480
+    ],
+    "source_aspect_ratio": 1.7777777777777777,
+    "portrait_source": false,
+    "native_portrait_interface_claimed": false,
+    "crop_performed": false,
+    "effective_image": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/inputs/static_source_stage2_20261014/stp/case02_person_rock_jump/effective_exact_tstar.png",
+    "effective_image_sha256": "80017a11b953a053c84f47f58b66a7660ea235c6181ff41d5b78a1939c4d6361",
+    "prepared_static_video": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/inputs/static_source_stage2_20261014/stp/case02_person_rock_jump/exact_tstar_repeated81.mp4",
+    "native_output_canvas_wh": [
+      832,
+      480
+    ],
+    "official_internal_resize": "prepared canvas matches fixed model input",
+    "input_preprocess_note": "Portrait/other aspect sources use an explicit fixed landscape canvas; no native portrait support is implied. Native output pixels are never edited."
+  },
+  "input_image": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/inputs/static_source_stage2_20261014/stp/case02_person_rock_jump/effective_exact_tstar.png",
+  "input_static_video": "/public/wufeier/automatic_bullet_time/results/stage23_remaining12_20261015/inputs/static_source_stage2_20261014/stp/case02_person_rock_jump/exact_tstar_repeated81.mp4",
+  "record_namespace": "stp_static_source_anchor",
+  "source_preprocess": "Aspect-preserving bilinear resize + black letterbox to declared fixed model canvas",
+  "upstream_native_frame_anchor": "exact manually selected source t* image, not a generated prior stage"
+}

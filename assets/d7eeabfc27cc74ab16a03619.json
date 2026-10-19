@@ -1,0 +1,31 @@
+{
+  "case_id": "case11_man_contemporary_dance",
+  "model": "Vista4D + experimental_boundary_latent_anchor",
+  "stage": 3,
+  "model_version": "official Vista4D 384p49_step=30000 + Wan2.1-T2V-14B, unchanged weights",
+  "official_joint_endpoint_input_supported": false,
+  "adapter_kind": "experimental sampler-time VAE first-latent pin; no decoded output edit",
+  "execution_gpus": [
+    0,
+    2,
+    4,
+    5
+  ],
+  "num_frames": 49,
+  "height": 384,
+  "width": 672,
+  "steps": 20,
+  "seed": 42,
+  "strict_stage_pass": false,
+  "absolute_native_endpoint_to_numeric_camera_calibrated": false,
+  "native_first_frame_matches_actual_endpoint": "unverified",
+  "source_action_order_preserved": "unverified",
+  "status": "generated_pending_visual_review",
+  "failure_reason": "One-pipeline experimental native output decoded; seam/action/static-camera fidelity unverified",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/stage3/case11_man_contemporary_dance/experimental_boundary_latent_anchor_20steps_usp04/video_seed=42.mp4",
+  "actual_stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_trial/case11_man_contemporary_dance/vista4d_384p_native_usp02/video_seed=42.mp4",
+  "actual_stage2_terminal_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/inputs/case11_vista_stage2_native_lastframe48.png",
+  "source_post_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_stage3_trial/case11_man_contemporary_dance/render_384p_all_dynamic/video_src.mp4",
+  "numeric_target_camera": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_stage3_trial/case11_man_contemporary_dance/render_384p_all_dynamic/cameras_tgt.npz",
+  "batch_inference_s": 1038.3
+}

@@ -1,0 +1,41 @@
+{
+  "status": "generated_pending_visual_review",
+  "case_id": "case11_man_contemporary_dance",
+  "model": "TriMotion (official weights; isolated inference-only latent-anchor adapter)",
+  "mode": "V2V + actual Stage2 endpoint image + identity relative camera",
+  "stage2_model": "ReDirector",
+  "stage2_native_endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case11_man_contemporary_dance/stage2_actual_final_native.png",
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/redirector/stage2/case11_man_contemporary_dance/native.mp4",
+  "stage2_final_frame_index": 80,
+  "stage2_native_endpoint_sha256": "5eee11d553b334879ed12d2007d9e977c338e9023f52975d8e7aced61cd8b23c",
+  "source_post_action_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case11_man_contemporary_dance/source_post_81frames.mp4",
+  "source_frame_range_inclusive": [236, 316],
+  "source_fps": 25,
+  "timing_note": "81 source frames at25fps generated as81 frames at30fps; motion order, not exact source duration, can be compared",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case11_man_contemporary_dance/redir_endpoint_latent_anchor_81f/native_pose.mp4",
+  "native_resolution": [672, 384],
+  "native_fps": 30,
+  "native_frames": 81,
+  "seed": 42,
+  "sampler_steps": 50,
+  "sampling_variant": "Custom inference-only: after each official FlowMatchScheduler step, pin output first VAE time latent to appropriately noised VAE(actual Stage2 endpoint); preserve source-action latents and all other generated latents. No model-weight changes, no decoded-frame replacement.",
+  "adapter_audit": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case11_man_contemporary_dance/redir_endpoint_latent_anchor_81f/latent_anchor_audit.json",
+  "adapter_pin_count": 50,
+  "native_first_to_stage2_endpoint": {
+    "method": "Decode native MP4 frame0 and bicubic-resize true Stage2 endpoint PNG to 672x384, RGB pixel comparison",
+    "mae": 2.624,
+    "psnr_db": 32.805,
+    "same_method_official_mask_baseline_mae": 3.377,
+    "same_method_official_mask_baseline_psnr_db": 31.434
+  },
+  "component_review": {
+    "from_actual_stage2_endpoint": "conditioned, first latent pinned; native frame0 closely matches endpoint but codec/VAE difference remains",
+    "source_action_order": "sampled source and native at frames 0/20/40/60/80; corresponding major poses appear in the same order; full action fidelity needs manual review",
+    "camera_static": "relative identity camera supplied; output camera constancy needs manual review",
+    "absolute_target_pose": "not calibrated from Stage2 image; unsupported by this input",
+    "strict_stage3_pass": null,
+    "strict_stage23_seam_pass": null,
+    "strict_three_stage_pass": false
+  },
+  "diagnostic_contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case11_man_contemporary_dance/redir_endpoint_latent_anchor_81f/diagnostic_contact.png"
+}

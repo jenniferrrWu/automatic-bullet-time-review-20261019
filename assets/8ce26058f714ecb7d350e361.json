@@ -1,0 +1,39 @@
+{
+  "case_id": "case13_woman_rooftop_dance",
+  "model": "redirector",
+  "stage": 3,
+  "status": "visual_failed",
+  "model_version": "official ReDirector step20000 + PAI/Wan2.1-Fun-V1.1-1.3B-Control-Camera",
+  "strict_stage_pass": false,
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/redirector/stage3/case13_woman_rooftop_dance/native.mp4",
+  "seed": 42,
+  "input_mode": "source post-t* 81 frames as cond_video + ACTUAL native Stage2 final frame as separate first_frame + constant target C2W",
+  "source_post_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case13_woman_rooftop_dance/source_post_81frames.mp4",
+  "source_post_frames_including_anchor": [
+    236,
+    316
+  ],
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/redirector/stage2/case13_woman_rooftop_dance/native.mp4",
+  "stage2_actual_final_frame": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case13_woman_rooftop_dance/stage2_actual_final_native.png",
+  "stage2_endpoint_input_field": "first_frame (official pipeline uses CLIP semantic image feature only; no VAE pixel anchor or hard output boundary)",
+  "stage2_actual_last_frame_supplied": true,
+  "stage2_endpoint_hard_enforced": false,
+  "stage2_actual_visual_endpoint_pose_calibrated": false,
+  "camera_path_file": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/camera/redirector/case13_woman_rooftop_dance_stage3_constant_actual_stage2_endpoint.json",
+  "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+  "negative_prompt": "",
+  "source_intrinsics_calibrated": false,
+  "visual_review": {
+    "frames_checked": [0, 40, 80],
+    "start_from_stage2_endpoint": "FAIL: native first frame switches from close-up kick/skyline to wide rooftop view with different dark wall; side-by-side shows major person scale, scene and camera jump",
+    "source_action_order": "FAIL: source kick lowers into turn/step, but generated dancer floats, exits frame by midpoint, then dissolves into background artifacts",
+    "camera_static": "framing broadly fixed after the jump, but scene/subject geometry morphs",
+    "subject_background": "FAIL: strong rebuilding, disappearing/flying subject, incompatible backdrop",
+    "strict_stage3_pass": false,
+    "seam_montage": "results/stage23_basemodel_v2_20261012/review_montages/redirector_case13_stage2last_vs_stage3first.png",
+    "three_frame_montage": "results/stage23_basemodel_v2_20261012/review_montages/redirector_case13_stage3_0_40_80.png"
+  },
+  "failure_reason": "Native Stage2->3 view/person/background jump; person flies/disappears; source post-t* action is not preserved.",
+  "inference_s": 1215.19,
+  "peak_allocated_mib": 13433.2
+}

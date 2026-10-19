@@ -1,0 +1,40 @@
+{
+  "case_id": "case11_man_contemporary_dance",
+  "model": "vista4d",
+  "stage": 2,
+  "model_version": "official Eyeline-Labs/Vista4D 384p49_step=30000 + Wan2.1-T2V-14B",
+  "status": "visual_failed",
+  "strict_stage_pass": false,
+  "input_mode": "49 repeated exact t* frames; official Pi3X depth and all-static masks; authored 49-frame C2W rightward 30-degree orbit; source video and rendered point-cloud video",
+  "explicit_t_star_input": "t* image repeated as video, not numeric timestamp parameter",
+  "target_direction": "rightward",
+  "target_angle_deg": 30,
+  "camera_coordinate_system": "Pi3X first-frame C2W; +Z forward, +X right; pivot at median positive first-frame depth",
+  "camera_path_file": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_trial/case11_man_contemporary_dance/camera_right30.npz",
+  "numeric_camera_control_supplied": true,
+  "source_post_video_provided": false,
+  "strict_stage3_interface": "not tested: Stage2 diagnostic only",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_trial/case11_man_contemporary_dance/vista4d_384p_native_usp02/video_seed=42.mp4",
+  "execution_gpus": [
+    0,
+    2
+  ],
+  "official_usp": true,
+  "seed": 42,
+  "visual_review": "已人工比对原生第0/12/24/36/48帧及t*源帧：踢起的腿从水平伸展明显弯曲回收，头部/躯干姿态改变，故t*冻结失败。背景文字墙与人物相对位置有变化，可能有视角变化，但平面背景/动作漂移使真实30°视差及终点角度无法独立确认；不能认定严格Stage2达标。身份大体保留，末帧与源t*姿态不一致，不能作为严格Stage3拼接端点。",
+  "component_review": {
+    "t_star_freeze": "fail: raised leg retracts and torso/head orientation drift across native frames",
+    "real_parallax": "uncertain: wall and subject relative displacement exists, but planar wall and moving pose do not prove 3D orbit",
+    "target_endpoint_30deg": "unverified: numeric C2W supplied, rendered appearance does not independently establish 30 degrees",
+    "identity_background": "identity mostly recognizable; text wall legible but perspective and shadow change",
+    "stage1_to_stage2_native_seam": "source t* and generated first frame resemble but face/head detail and pose differ; not certified continuous"
+  },
+  "geometry_limit": "single exact t* frame repeated; depth reconstruction cannot expose unseen surfaces; all-static official mask branch bypasses gated SAM3",
+  "inference_s": 2138.930930555798,
+  "peak_gpu_mib": {
+    "0": 45336,
+    "2": 45043
+  },
+  "actual_inference_python": "/public/wufeier/automatic_bullet_time/envs/depthdirector/bin/python",
+  "failure_reason": "Native video generated, but substantial person pose drift violates Stage2 freeze; real 30-degree parallax/endpoint cannot be certified from this output. See component_review."
+}

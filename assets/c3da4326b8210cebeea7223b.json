@@ -1,0 +1,32 @@
+{
+  "kind": "experimental_boundary_latent_anchor_not_official_model_interface",
+  "actual_stage2_native_terminal_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/inputs/case11_vista_stage2_native_lastframe48.png",
+  "endpoint_sha256": "41faad903b560ac274db056a5ce5385d3204cc481dec965b47c69f6233c8e6f5",
+  "source_post_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_stage3_trial/case11_man_contemporary_dance/render_384p_all_dynamic/video_src.mp4",
+  "point_cloud_condition": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_stage3_trial/case11_man_contemporary_dance/render_384p_all_dynamic/video_pc.mp4",
+  "numeric_target_camera": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_stage3_trial/case11_man_contemporary_dance/render_384p_all_dynamic/cameras_tgt.npz",
+  "unmodified_official_weights": [
+    "/public/wufeier/automatic_bullet_time/models/Vista4D_weights/384p49_step=30000/dit.pth",
+    "/public/wufeier/automatic_bullet_time/models/Wan2.1-T2V-14B"
+  ],
+  "sampler_intervention": "At every flow-matching step, set decoded-output first-frame latent x_sigma_next=(1-sigma_next)*VAE(actual Stage2 terminal image)+sigma_next*fixed_first_noise; no decoded frame substitution",
+  "firstframe_pixel_exactness_claim": false,
+  "source_action_order_claim": false,
+  "strict_stage_pass_claim": false,
+  "steps": 20,
+  "seed": 42,
+  "fps": 25.0,
+  "height": 384,
+  "width": 672,
+  "num_frames": 49,
+  "official_vae_tiled_decode_tile_size": [
+    16,
+    26
+  ],
+  "official_vae_tiled_decode_stride": [
+    8,
+    13
+  ],
+  "prompt": "Reshoot the supplied source video from the supplied fixed target camera viewpoint. Begin at the supplied highlight-frame state, then preserve the exact order and timing of the person and object actions in the supplied subsequent source frames. Keep the target camera stationary at its numerical pose throughout this segment. Preserve the person's identity, clothing and appearance, object structure, background geometry, lighting and scene continuity.",
+  "negative_prompt": "frozen action, slow-motion instead of the source action, invented choreography, reordered events, changed person, drifting pose, changed clothes, flying subject, deformed objects, unstable background, moving camera, crop-only viewpoint change, scene reconstruction artifacts"
+}

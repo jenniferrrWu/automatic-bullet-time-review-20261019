@@ -1,0 +1,32 @@
+{
+  "case_id": "case04_person_water_jump",
+  "model": "trajectorycrafter",
+  "stage": 2,
+  "model_version": "official TrajectoryCrafter/TrajectoryCrafter + CogVideoX-Fun-V1.1-5b-InP",
+  "status": "generated_pending_visual_review",
+  "strict_stage_pass": false,
+  "input_mode": "49 repeated t* frames + official bullet mode + authored per-frame C2W orbit",
+  "input_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/recam/stage2/case04_person_water_jump.mp4",
+  "source_post_video_provided": false,
+  "stage2_actual_endpoint_frame_provided": false,
+  "strict_stage3_interface": "not applicable",
+  "camera_coordinate_system": "official C2W left-up-backward convention; authored rightward Y-axis arc about world origin with center-depth radius from DepthCrafter",
+  "requested_target_pose": [
+    0,
+    30,
+    0,
+    0,
+    0
+  ],
+  "camera_path_file": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/camera/trajectorycrafter/case04_person_water_jump_stage2_orbit_corrected.json",
+  "adapter_camera_override": "official target_pose=[0,30,0,0,0] alone rotates in place; get_poses output is replaced with authored true circular C2W matrices, official warp/diffusion unchanged",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trajectorycrafter/stage2/case04_person_water_jump/gen.mp4",
+  "seed": 42,
+  "inference_steps": 10,
+  "prompt_control": "official BLIP2 auto-caption + default refine_prompt; --prompt CLI argument is unused by demo.py",
+  "auto_caption_file": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/captions/trajectorycrafter/case04_person_water_jump_stage2_orbit_corrected.txt",
+  "failure_reason": "",
+  "runtime_compatibility_hook": "reference latent CPU->ref_patch_embed weight device before convolution; no value change",
+  "inference_s": 333.7,
+  "peak_allocated_mib": 24240.9
+}

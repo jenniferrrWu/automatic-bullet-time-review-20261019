@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "pin_count": 50,
+  "endpoint_file_sha256": "4e20bcc2801fad4222b7b03c3010b62bcc66437957d75116855e227a3777cf41",
+  "postdecode_frame_replacement": false,
+  "official_weights_unchanged": true,
+  "mode": "official fused first-time-latent pin with isolated joint-input timestep compatibility",
+  "final_latent_max_abs_delta": 0.0,
+  "final_sigma": 0.0
+}

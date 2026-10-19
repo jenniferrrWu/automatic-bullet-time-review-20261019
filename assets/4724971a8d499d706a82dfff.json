@@ -1,0 +1,590 @@
+{
+  "recorded_at": "2026-10-16T15:36:51.680979+08:00",
+  "decision_maker": "user",
+  "decision_scope": "model_and_stage_for_current_three_smoke_basemodel_selection",
+  "source_user_statement": "这些折叠的就是我看了三个smoke后淘汰的，你也记一下",
+  "source_audit": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/acceptance_20261014/smoke_audit.json",
+  "source_audit_sha256": "19894dd47dda3baa12f69f191258e955ca50d6a1ced999123945d4408a8c0870",
+  "eliminated_counts": {
+    "stage2": 5,
+    "stage3": 12
+  },
+  "decisions": [
+    {
+      "stage": 2,
+      "model": "BulletTime",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/bullettime/stage2/case11_man_contemporary_dance/experimental_boundary_latent_anchor_50steps/my_validate/step_0/val_realworld_camera_actual_target_time_scene_exact_tstar_repeated81_difftimecam/gen.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/bullettime_static_source_anchor/stage2/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/bullettime/stage2/case13_woman_rooftop_dance/experimental_boundary_latent_anchor_50steps/my_validate/step_0/val_realworld_camera_actual_target_time_scene_exact_tstar_repeated81_difftimecam/gen.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/bullettime_static_source_anchor/stage2/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/bullettime/stage2/case04_person_water_jump/experimental_boundary_latent_anchor_50steps/my_validate/step_0/val_realworld_camera_actual_target_time_scene_exact_tstar_repeated81_difftimecam/gen.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/bullettime_static_source_anchor/stage2/case04_person_water_jump.json"
+        }
+      ],
+      "user_reconfirmed_at": "2026-10-16T15:45:28.910112+08:00",
+      "user_reconfirmation": "折叠同时记得记淘汰"
+    },
+    {
+      "stage": 2,
+      "model": "DepthDirector",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/depthdirector/preprocess/case11_man_contemporary_dance/Rotate,0,30,0,0,0/depthdirector.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/records/depthdirector/stage2/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/depthdirector/preprocess/case13_woman_rooftop_dance/Rotate,0,30,0,0,0/depthdirector.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/records/depthdirector/stage2/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/depthdirector/preprocess/case04_person_water_jump/Rotate,0,30,0,0,0/depthdirector.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/depthdirector/stage2/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "model": "DimensionX",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/dimensionx_current/stage2/case11_man_contemporary_dance/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/records/dimensionx_current/stage2/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/dimensionx_current/stage2/case13_woman_rooftop_dance/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/records/dimensionx_current/stage2/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_current/stage2/case04_person_water_jump/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/dimensionx_current/stage2/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "model": "TrajectoryCrafter",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/trajectorycrafter/stage2/case11_man_contemporary_dance/gen.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/records/trajectorycrafter/stage2/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/trajectorycrafter/stage2/case13_woman_rooftop_dance/gen.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/records/trajectorycrafter/stage2/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trajectorycrafter/stage2/case04_person_water_jump/gen.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trajectorycrafter/stage2/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "model": "Vista4D",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_trial/case11_man_contemporary_dance/vista4d_384p_native_usp02/video_seed=42.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/records/vista4d/stage2/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_trial/case13_woman_rooftop_dance/vista4d_384p_native_usp02/video_seed=42.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/records/vista4d/stage2/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/stage2/case04_person_water_jump/vista4d_384p_native_usp04_smallvae/video_seed=42.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/vista4d/stage2/case04_person_water_jump_usp04_smallvae.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "SpaceTimePilot",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/spacetimepilot/stage3/case11_man_contemporary_dance/experimental_boundary_latent_anchor_20steps/case11_man_contemporary_dance_timeforward_10.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/stp_experimental_anchor/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/spacetimepilot/stage3/case13_woman_rooftop_dance/experimental_boundary_latent_anchor_20steps/case13_woman_rooftop_dance_timeforward_10.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/stp_experimental_anchor/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/spacetimepilot/stage3/case04_person_water_jump/experimental_boundary_latent_anchor_20steps/case04_person_water_jump_timeforward_10.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/stp_experimental_anchor/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "ReCamMaster",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/recam/stage3/case11_man_contemporary_dance/full50_endpoint_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/recam_full50_endpoint_anchor_v2/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/recam/stage3/case13_woman_rooftop_dance/full50_endpoint_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/recam_full50_endpoint_anchor_v2/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/recam/stage3/case04_person_water_jump/full50_endpoint_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/recam_full50_endpoint_anchor_v2/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "WorldInWorld",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case11_man_contemporary_dance/case11_man_contemporary_dance_anchor_v2.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/worldinworld_endpoint_anchor_v2/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case13_woman_rooftop_dance/case13_woman_rooftop_dance_anchor_v2.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/worldinworld_endpoint_anchor_v2/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case04_person_water_jump/case04_person_water_jump_anchor_v2.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/worldinworld_endpoint_anchor_v2/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "DepthDirector",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/depthdirector_stage3/preprocess/case11_man_contemporary_dance/Rotate,0,30,0,0,0/depthdirector.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/depthdirector/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/depthdirector_stage3/preprocess/case13_woman_rooftop_dance/Rotate,0,30,0,0,0/depthdirector.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/depthdirector/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/depthdirector_stage3/preprocess/case04_person_water_jump/Rotate,0,30,0,0,0/depthdirector.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/depthdirector/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "ReDirector",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/redirector/stage3/case11_man_contemporary_dance/experimental_endpoint_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/redirector_endpoint_anchor_v2/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/redirector/stage3/case13_woman_rooftop_dance/experimental_endpoint_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/redirector_endpoint_anchor_v2/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/redirector/stage3/case04_person_water_jump/experimental_endpoint_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/redirector_endpoint_anchor_v2/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "GEN3C",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/gen3c_joint_endpoint/stage3/case11_man_contemporary_dance/cache4d_edm_anchor_v1_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/gen3c_joint_endpoint/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/gen3c_joint_endpoint/stage3/case13_woman_rooftop_dance/cache4d_edm_anchor_v1_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/gen3c_joint_endpoint/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/gen3c_joint_endpoint/stage3/case04_person_water_jump/cache4d_edm_anchor_v1_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/gen3c_joint_endpoint/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "DimensionX",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_joint_endpoint/stage3/case11_man_contemporary_dance/video_latent_prior_anchor_v1_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/dimensionx_joint_endpoint/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_joint_endpoint/stage3/case13_woman_rooftop_dance/video_latent_prior_anchor_v1_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/dimensionx_joint_endpoint/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_joint_endpoint/stage3/case04_person_water_jump/video_latent_prior_anchor_v1_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/dimensionx_joint_endpoint/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "TrajectoryCrafter",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/trajectorycrafter/stage3/case11_man_contemporary_dance/fixedview_endpoint_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trajectorycrafter_fixedview_anchor_v2/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/trajectorycrafter/stage3/case13_woman_rooftop_dance/fixedview_endpoint_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trajectorycrafter_fixedview_anchor_v2/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/trajectorycrafter/stage3/case04_person_water_jump/fixedview_endpoint_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trajectorycrafter_fixedview_anchor_v2/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "Vista4D",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/stage3/case11_man_contemporary_dance/experimental_boundary_latent_anchor_20steps_usp04/video_seed=42.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/vista4d_experimental_anchor/stage3/case11_man_contemporary_dance_usp04.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/stage3/case13_woman_rooftop_dance/experimental_boundary_latent_anchor_20steps_usp04/video_seed=42.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/vista4d_experimental_anchor/stage3/case13_woman_rooftop_dance_usp04.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/stage3/case04_person_water_jump/experimental_boundary_latent_anchor_20steps_usp04/video_seed=42.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/vista4d_experimental_anchor/stage3/case04_person_water_jump_usp04.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "TriMotion",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case11_man_contemporary_dance/redir_endpoint_latent_anchor_81f/native_pose.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trimotion/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case13_woman_rooftop_dance/redir_endpoint_latent_anchor_81f/native_pose.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trimotion/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case04_person_water_jump/redir_endpoint_latent_anchor_81f/native_pose.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/trimotion/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "OmniCamera",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case11_man_contemporary_dance/full50_joint_native_anchor_audit_importfix_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/omnicamera_full50_anchor/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case13_woman_rooftop_dance/full50_joint_native_anchor_audit_importfix_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/omnicamera_full50_anchor/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case04_person_water_jump/full50_joint_native_anchor_audit_importfix_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/omnicamera_full50_anchor/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "Wan VACE",
+      "selection_status": "eliminated_by_user",
+      "basis": "用户查看三条 smoke 后决定淘汰",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/wan/stage3/case11_man_contemporary_dance/actual_endpoint_latent_anchor/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/wan/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/wan/stage3/case13_woman_rooftop_dance/actual_endpoint_latent_anchor/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/wan/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/wan/stage3/case04_person_water_jump/actual_endpoint_latent_anchor/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/wan/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "Hunyuan OmniWeaving",
+      "selection_status": "semi_eliminated_by_user",
+      "basis": "用户将Stage3混元与JoyAI改为半淘汰，保留备选",
+      "recorded_at": "2026-10-16T16:27:48.478411+08:00",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/hunyuan/stage3/case11_man_contemporary_dance/scheduler_factory_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/hunyuan_scheduler_factory_anchor_v2_20261014/stage3/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/hunyuan/stage3/case13_woman_rooftop_dance/scheduler_factory_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/hunyuan_scheduler_factory_anchor_v2_20261014/stage3/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/hunyuan/stage3/case04_person_water_jump/scheduler_factory_anchor_v2_20261014/native.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/hunyuan_scheduler_factory_anchor_v2_20261014/stage3/case04_person_water_jump.json"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "model": "JoyAI Video Edit",
+      "selection_status": "semi_eliminated_by_user",
+      "basis": "用户将Stage3混元与JoyAI改为半淘汰，保留备选",
+      "recorded_at": "2026-10-16T16:27:48.478411+08:00",
+      "reviewed_case_ids": [
+        "case11_man_contemporary_dance",
+        "case13_woman_rooftop_dance",
+        "case04_person_water_jump"
+      ],
+      "reviewed_results": [
+        {
+          "case_id": "case11_man_contemporary_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/recordings/1791944343_1/output_0000.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/records/case11_man_contemporary_dance.json"
+        },
+        {
+          "case_id": "case13_woman_rooftop_dance",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/recordings/1791944378_1/output_0000.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/records/case13_woman_rooftop_dance.json"
+        },
+        {
+          "case_id": "case04_person_water_jump",
+          "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/recordings/1791893073_1/output_0000.mp4",
+          "record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/records/case04_person_water_jump.json"
+        }
+      ]
+    }
+  ],
+  "unlisted_model_stage_status": "pending_acceptance",
+  "unlisted_is_confirmed_pass": false,
+  "individual_case_failures_or_failure_causes_inferred": false,
+  "browser_fold_changes_update_selection": false,
+  "semi_eliminated_counts": {
+    "stage2": 0,
+    "stage3": 2
+  },
+  "initial_screen_passed_model_stages": [
+    {
+      "stage": 2,
+      "model": "SpaceTimePilot"
+    },
+    {
+      "stage": 2,
+      "model": "ReCamMaster"
+    },
+    {
+      "stage": 2,
+      "model": "WorldInWorld"
+    },
+    {
+      "stage": 2,
+      "model": "ReDirector"
+    },
+    {
+      "stage": 2,
+      "model": "GEN3C"
+    },
+    {
+      "stage": 3,
+      "model": "BulletTime"
+    },
+    {
+      "stage": 3,
+      "model": "CamCloneMaster"
+    }
+  ],
+  "updated_at": "2026-10-16T16:27:48.478411+08:00",
+  "latest_user_instruction": "Stage3混元、JoyAI半淘汰；复制网页展示剩余候选15例，逐条核查Stage3端点首帧约束、外观参考与源动作视频。完整拼接等待下一轮人工确认。"
+}

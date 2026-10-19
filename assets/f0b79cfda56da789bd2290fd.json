@@ -1,0 +1,42 @@
+{
+  "status": "generated_pending_visual_review",
+  "case_id": "case13_woman_rooftop_dance",
+  "model": "TriMotion (official weights; isolated inference-only latent-anchor adapter)",
+  "mode": "V2V + actual Stage2 endpoint image + identity relative camera",
+  "stage2_model": "ReDirector",
+  "stage2_native_endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case13_woman_rooftop_dance/stage2_actual_final_native.png",
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/redirector/stage2/case13_woman_rooftop_dance/native.mp4",
+  "stage2_final_frame_index": 80,
+  "stage2_native_endpoint_sha256": "dc1a383a3e3992fcb7967b193300578049b8a49878344b41cb81af86b292a1f8",
+  "source_post_action_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case13_woman_rooftop_dance/source_post_81frames.mp4",
+  "source_frame_range_inclusive": [236, 316],
+  "source_fps": 29.97,
+  "timing_note": "81 source frames at29.97fps generated as81 frames at30fps, approximately matched timing",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case13_woman_rooftop_dance/redir_endpoint_latent_anchor_81f/native_pose.mp4",
+  "native_resolution": [672, 384],
+  "native_fps": 30,
+  "native_frames": 81,
+  "seed": 42,
+  "sampler_steps": 50,
+  "sampling_variant": "Custom inference-only first-VAE-time-latent pin after each official scheduler step; actual Stage2 endpoint VAE latent, official source-action latents and identity relative camera. No output pixel replacement or model-weight changes.",
+  "adapter_audit": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case13_woman_rooftop_dance/redir_endpoint_latent_anchor_81f/latent_anchor_audit.json",
+  "adapter_pin_count": 50,
+  "native_first_to_stage2_endpoint": {
+    "method": "Decode native MP4 frame0 and bicubic-resize true Stage2 endpoint PNG to 672x384, RGB pixel comparison",
+    "mae": 4.496,
+    "psnr_db": 29.693,
+    "same_method_official_mask_baseline_mae": 5.918,
+    "same_method_official_mask_baseline_psnr_db": 28.302
+  },
+  "component_review": {
+    "from_actual_stage2_endpoint": "conditioned and first VAE latent pinned; native first frame closer than official mask baseline",
+    "source_action_order": "sampled native/source frames 0/20/40/60/80 show same broad kick, turn, reach, bend order, not frame-exact pose reproduction",
+    "background_identity": "native Stage3 appears to keep endpoint building structure, but perspective/static-camera accuracy unverified",
+    "camera_static": "relative identity camera supplied; full-sequence motion pending review",
+    "absolute_target_pose": "not calibrated from endpoint pixels, unsupported by this input",
+    "strict_stage3_pass": null,
+    "strict_stage23_seam_pass": null,
+    "strict_three_stage_pass": false
+  },
+  "diagnostic_contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case13_woman_rooftop_dance/redir_endpoint_latent_anchor_81f/diagnostic_contact.png"
+}

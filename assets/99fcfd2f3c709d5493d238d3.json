@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "pin_count": 50,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "8c26619bac537ebadf665c8f1281b3d806f69e29a7d2f9b5a0d8dbe0547d982a",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "official_endpoint_preprocessing_wh": [
+    1280,
+    704
+  ],
+  "endpoint_pixel_sha256": "28fb8b63bb8d84b4763124fd6e6cba32c0c981b17e978d19e8507b3403a5d5a7",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    44,
+    80
+  ],
+  "final_latent_max_abs_delta": 0.0,
+  "final_sigma": 0.0
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "case13_woman_rooftop_dance",
+  "status": "generated_visual_failure",
+  "model": "OmniCamera early public checkpoint + official Wan2.2-TI2V-5B, experimental lower-level joint input adapter",
+  "public_interface_supports_joint_endpoint_plus_source_video": false,
+  "entry_point": "WanVideoPipeline(model_mode=traj2v_v2v, frame_cond_video=source post81, input_image=actual Stage2 native endpoint, camera_info=identity relative C2W)",
+  "adapter": "inference-only fuse_vae_embedding_in_latents=False to avoid public lower-level output/source token mismatch, but retain actual endpoint VAE latent insertion and official per-step first-latent pin; weights unchanged, no postdecode replacement",
+  "trained_for_joint_condition": "unknown; this is not a public official mode",
+  "source_post_action_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case13_woman_rooftop_dance/source_post_81frames.mp4",
+  "source_frame_range_inclusive": [236,316], "source_fps": 29.97,
+  "source_sampling": "all81 source frames0–80 once, official center crop/rescale to1248x704; output16fps does not preserve source timing",
+  "stage2_native_endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case13_woman_rooftop_dance/stage2_actual_final_native.png",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case13_woman_rooftop_dance/redir_endpoint_v2v_timestep_adapter_81f/native.mp4",
+  "native_resolution": [1248,704], "native_fps": 16, "native_frames": 81, "seed": 42, "sampler_steps": 20, "inference_s": 761.13,
+  "native_first_to_stage2_endpoint": {"method":"decoded RGB frame0 versus true Stage2 endpoint bicubic resized to1248x704", "mae":5.948, "psnr_db":26.045},
+  "component_review": {"endpoint_first_view":"present at frame0, actual endpoint VAE latent inserted", "source_action_order":"FAIL: person disappears after frame0 and later frames show blue/purple bands and noise rather than source action", "identity_background":"FAIL: scene collapses", "camera_static":"not meaningful once content collapses", "stage3_pass":false,"strict_stage23_seam_pass":false,"strict_three_stage_pass":false},
+  "repro_status": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case13_woman_rooftop_dance/redir_endpoint_v2v_timestep_adapter_81f/inputs_and_status.json",
+  "diagnostic_contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case13_woman_rooftop_dance/redir_endpoint_v2v_timestep_adapter_81f/diagnostic_contact.png"
+}

@@ -1,0 +1,12 @@
+{
+  "case_id": "case11_man_contemporary_dance",
+  "model": "gen3c_prompt",
+  "stage": 3,
+  "model_version": "official nvidia/GEN3C-Cosmos-7B + google-t5/t5-11b",
+  "status": "unsupported",
+  "strict_stage_pass": false,
+  "input_mode": "video+camera path exists, but no verified joint input enforcing actual generated Stage2 endpoint frame and source post-t* action",
+  "stage2_last_frame_input_supported": false,
+  "native_video": "",
+  "failure_reason": "No verified official interface simultaneously enforces Stage2 actual final image/view, original post-t* action order, and fixed new camera. Prompt cannot substitute for missing endpoint conditioning."
+}

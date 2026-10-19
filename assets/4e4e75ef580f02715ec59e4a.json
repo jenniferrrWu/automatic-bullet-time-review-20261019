@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "pin_count": 50,
+  "endpoint_file_sha256": "7cf44f082ce5594c323e8fd49488d4d8f18174152264646d0655624ecfcabe1e",
+  "postdecode_frame_replacement": false,
+  "official_weights_unchanged": true,
+  "final_sigma": 0.0,
+  "final_latent_max_abs_delta": 0.0
+}

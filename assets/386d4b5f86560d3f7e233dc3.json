@@ -1,0 +1,33 @@
+{
+  "case_id": "case04_person_water_jump",
+  "model": "Vista4D",
+  "stage": 2,
+  "model_version": "official Eyeline-Labs/Vista4D 384p49_step=30000 + Wan2.1-T2V-14B",
+  "status": "failed",
+  "strict_stage_pass": false,
+  "source_video": "/public/wufeier/automatic_bullet_time/inputs/review_candidates/person_water_jump.mp4",
+  "t_star_frame_zero_based": 525,
+  "input_mode": "exact real source frame525 repeated49; official Pi3X/all-static geometry, point-cloud video and numerical 30-degree rightward C2W",
+  "t_star_input_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/stage2/case04_person_water_jump/source_frame525_exact.png",
+  "frozen_source_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/stage2/case04_person_water_jump/source_frame525_repeated49.mp4",
+  "camera_path_file": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/stage2/case04_person_water_jump/camera_right30.npz",
+  "target_angle_deg": 30,
+  "camera_coordinate_system": "Pi3X first-frame C2W, +Z forward/+X image-right, subject-depth pivot",
+  "numeric_camera_control_supplied": true,
+  "native_video": "",
+  "actual_native_endpoint_image": "",
+  "execution_gpus": [
+    0,
+    2
+  ],
+  "official_usp": true,
+  "seed": 42,
+  "source_post_video_provided": false,
+  "visual_review": "Native generation and strict freeze/parallax/endpoint quality must be judged separately",
+  "strict_stage3_note": "Native Stage2 final image must actually condition Stage3; Vista4D official T2V CLI does not expose that joint field",
+  "peak_gpu_mib": {
+    "0": 44556,
+    "2": 44831
+  },
+  "failure_reason": "CalledProcessError(1, ['/public/wufeier/automatic_bullet_time/envs/depthdirector/bin/torchrun', '--standalone', '--nproc_per_node', '2', '-m', 'scripts.inference.inference', '--model_id_with_origin_paths', 'Wan2.1-T2V-14B:diffusion_pytorch_model*.safetensors,Wan2.1-T2V-14B:models_t5_umt5-xxl-enc-bf16.pth,Wan2.1-T2V-14B:Wan2.1_VAE.pth', '--tokenizer_id_with_origin_path', 'Wan2.1-T2V-14B:google/*', '--local_model_folder', '/public/wufeier/automatic_bullet_time/models', '--vista4d_checkpoint', '/public/wufeier/automatic_bullet_time/models/Vista4D_weights/384p49_step=30000/dit.pth', '--vista4d_config_path', '/public/wufeier/automatic_bullet_time/models/Vista4D_weights/384p49_step=30000/config.yaml', '--input_folder', '/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/stage2/case04_person_water_jump/render_384p', '--output_folder', '/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/vista4d/stage2/case04_person_water_jump/vista4d_384p_native_usp02', '--prompt', 'A real person remains completely still in the exact same jumping pose while the camera moves on a continuous rightward arc around the person. The person, water, rocks, objects, background and lighting remain unchanged; only the camera viewpoint changes.', '--negative_prompt', 'body motion, pose drift, turning by the person, shape deformation, identity change, new objects, scene change, camera crop or zoom, blurry details, low quality', '--height', '384', '--width', '672', '--num_frames', '49', '--seed', '42', '--tile_vae', '--use_usp'])"
+}
