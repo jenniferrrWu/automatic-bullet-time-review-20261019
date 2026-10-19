@@ -1,0 +1,11 @@
+{
+  "case_id": "case13_woman_rooftop_dance",
+  "model": "gen3c",
+  "stage": 3,
+  "status": "unsupported",
+  "strict_stage_pass": false,
+  "model_version": "nvidia/GEN3C-Cosmos-7B official",
+  "input_mode": "video + ViPE depth/intrinsics/extrinsics + camera path (no independent enforced Stage2 native last-frame condition verified)",
+  "stage2_last_frame_input_supported": false,
+  "failure_reason": "No verified official interface simultaneously enforcing actual generated Stage2 endpoint frame, source post-t* motion and static target camera. Do not infer from video input alone."
+}

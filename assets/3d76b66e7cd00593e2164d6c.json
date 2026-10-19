@@ -1,0 +1,62 @@
+{
+  "case_id": "case04_person_water_jump",
+  "model": "dimensionx_current",
+  "stage": 2,
+  "status": "success_pending_native_visual_review",
+  "model_version": "official DimensionX orbit-right LoRA + CogVideoX-5B-I2V",
+  "input_mode": "single exact manually specified t* frame I2V; no source video input",
+  "source_video": "/public/wufeier/automatic_bullet_time/inputs/review_candidates/person_water_jump.mp4",
+  "t_star_frame_zero_based": 525,
+  "subject": "man jumping into a water pool",
+  "t_star_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_current/stage2/case04_person_water_jump/exact_manual_tstar.png",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_current/stage2/case04_person_water_jump/native.mp4",
+  "log": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_current/stage2/case04_person_water_jump/inference.log",
+  "prompt": "The supplied image is the exact frozen highlight frame. Keep the person, clothing, pose, objects, background geometry, lighting and shadows frozen in that instant. Move only the camera rightward around the stationary subject, aiming for about 30 degrees to a new view with genuine foreground-background parallax, then stop. No person action, pose drift, scene change, cut, pan-only motion, crop-only motion, or zoom-only motion.",
+  "seed": 42,
+  "input_camera_control": "discrete orbit-right LoRA category",
+  "target_angle_degrees_task_only": 30,
+  "numeric_terminal_camera_control_supplied": false,
+  "camera_coordinate_system": "not exposed by public DimensionX I2V interface",
+  "native_conditions": {
+    "frames": 49,
+    "fps": 8,
+    "steps": 50,
+    "guidance_scale": 6.0,
+    "dynamic_cfg": true
+  },
+  "stage2_task_pass": false,
+  "strict_full_chain": false,
+  "native_output_policy": "Direct official I2V MP4; no boundary replacement or re-encode.",
+  "t_star_image_info": {
+    "width": 1920,
+    "height": 1080,
+    "avg_frame_rate": "25/1",
+    "nb_read_frames": "1"
+  },
+  "command": [
+    "/public/wufeier/automatic_bullet_time/envs/hunyuan-i2v/bin/python",
+    "/public/wufeier/bullet_time_pipeline/scripts/run_v4_dimensionx_native.py",
+    "--model",
+    "/public/wufeier/bullet_time_pipeline/model_weights/three_stage_v4_20260928/dimensionx/CogVideoX-5b-I2V",
+    "--lora",
+    "/public/wufeier/bullet_time_pipeline/model_weights/three_stage_v4_20260928/dimensionx/orbit_right_lora_weights.safetensors",
+    "--image",
+    "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_current/stage2/case04_person_water_jump/exact_manual_tstar.png",
+    "--prompt",
+    "The supplied image is the exact frozen highlight frame. Keep the person, clothing, pose, objects, background geometry, lighting and shadows frozen in that instant. Move only the camera rightward around the stationary subject, aiming for about 30 degrees to a new view with genuine foreground-background parallax, then stop. No person action, pose drift, scene change, cut, pan-only motion, crop-only motion, or zoom-only motion.",
+    "--output",
+    "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_current/stage2/case04_person_water_jump/native.mp4",
+    "--seed",
+    "42"
+  ],
+  "gpu_physical_index": "0",
+  "inference_s": 505.4,
+  "exit_code": 0,
+  "native_video_info": {
+    "width": 720,
+    "height": 480,
+    "avg_frame_rate": "8/1",
+    "duration": "6.125000",
+    "nb_read_frames": "49"
+  }
+}

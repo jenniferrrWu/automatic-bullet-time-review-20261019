@@ -1,0 +1,22 @@
+{
+  "case_id": "case11_man_contemporary_dance", "variant_id": "fused_firstframe_plus_v2v_source_timestep_extension",
+  "status": "generated_visual_failure",
+  "model": "OmniCamera early public checkpoint + official Wan2.2-TI2V-5B, isolated experimental lower-level joint-condition adapter",
+  "public_interface_supports_joint_endpoint_plus_source_video": false,
+  "entry_point": "WanVideoPipeline(model_mode=traj2v_v2v, frame_cond_video=source post81, input_image=actual Stage2 native endpoint, camera_info=identity relative C2W)",
+  "adapter": "retain official fused first-frame timestep0/output-rest-current-timestep modulation; append pure-official-V2V current-timestep modulation for equal-length clean source-video tokens at every DiT block and output head. Actual Stage2 endpoint VAE latent inserted and pinned each sampling step. No model-code or weight changes, no decoded-frame replacement.",
+  "adapter_provenance": "official V2V uses scalar current timestep broadcast to both generated and appended source tokens; official fused I2V uses timestep0 for generated first time slice and current timestep elsewhere; their unpublished joint input had N output modulation tokens for 2N output+source tokens",
+  "trained_for_joint_condition": "unknown; not official public inference mode",
+  "source_post_action_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case11_man_contemporary_dance/source_post_81frames.mp4",
+  "source_frame_range_inclusive": [236,316], "source_fps": 25,
+  "source_sampling": "official _video_tensor selects all81 local frames0–80 once and center-crops/rescales to1248x704; output16fps changes source duration",
+  "stage2_native_endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case11_man_contemporary_dance/stage2_actual_final_native.png",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case11_man_contemporary_dance/redir_endpoint_v2v_fused_extend_81f/native.mp4",
+  "native_resolution": [1248,704], "native_fps": 16, "native_frames": 81, "seed": 42, "sampler_steps": 20, "inference_s": 769.42,
+  "adapter_execution": {"block_padded_calls":1800,"head_padded_calls":60,"output_tokens":18018,"source_tokens":18018},
+  "native_first_to_stage2_endpoint": {"method":"decoded RGB frame0 versus actual Stage2 endpoint bicubic resized to1248x704", "mae":2.823,"psnr_db":28.833},
+  "component_review": {"endpoint_first_view":"present at frame0", "source_action_order":"FAIL: source person vanishes after initial frame; later frames show only an empty studio wall", "identity_background":"background largely persists but person identity/action lost", "camera_static":"background appears static, irrelevant given absent subject", "stage3_pass":false,"strict_stage23_seam_pass":false,"strict_three_stage_pass":false},
+  "interpretation": "Repairing the timestep-length interface error is insufficient; published checkpoint/conditioning combination does not demonstrate Stage3 action continuation in this test. Decode success is not task success.",
+  "repro_status": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case11_man_contemporary_dance/redir_endpoint_v2v_fused_extend_81f/inputs_and_status.json",
+  "diagnostic_contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case11_man_contemporary_dance/redir_endpoint_v2v_fused_extend_81f/diagnostic_contact.png"
+}

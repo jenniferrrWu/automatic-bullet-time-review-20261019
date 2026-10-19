@@ -1,0 +1,10 @@
+{
+  "case_id": "case11_man_contemporary_dance",
+  "model": "dimensionx",
+  "stage": 3,
+  "status": "unsupported",
+  "strict_stage_pass": false,
+  "input_mode": "I2V image + orbit-right LoRA only",
+  "stage2_last_frame_input_supported": false,
+  "failure_reason": "No joint interface for Stage2 actual last frame, source post-t* action video, and static new camera. Not run."
+}

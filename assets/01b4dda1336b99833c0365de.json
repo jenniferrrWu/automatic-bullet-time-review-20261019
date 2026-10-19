@@ -1,0 +1,21 @@
+{
+  "case_id": "case04_person_water_jump", "status": "generated_visual_failure",
+  "model": "OmniCamera early public checkpoint + official Wan2.2-TI2V-5B, experimental lower-level joint input adapter",
+  "public_interface_supports_joint_endpoint_plus_source_video": false,
+  "entry_point": "WanVideoPipeline(model_mode=traj2v_v2v, frame_cond_video=exact source frames525–605, input_image=actual Stage2 frame80, camera_info=identity relative C2W)",
+  "adapter": "inference-only fuse_vae_embedding_in_latents=False to avoid public lower-level output/source token mismatch, retain actual endpoint VAE latent and official per-step first-latent pin; unchanged weights, no output-frame replacement",
+  "trained_for_joint_condition": "unknown; not a published official mode",
+  "source_post_action_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/source_post/case04_person_water_jump.mp4",
+  "source_post_sha256": "c806c1fbc83902c157464bda6c2b033a9b34e8fd447a60195e2ee6e9911ac5d2",
+  "source_frame_range_inclusive": [525,605], "source_fps": 29.97002997, "source_resolution": [1920,1080],
+  "source_sampling": "all81 source frames0–80 once; official ImageOps.fit center crop/rescale to1248x704; output16fps changes duration",
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/redirector/stage2/case04_person_water_jump/native.mp4",
+  "stage2_native_endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/redirector/stage2/case04_person_water_jump/native_last_frame80.png",
+  "stage2_native_endpoint_sha256": "385e84750613425e9da612afb8355cfc43891cbe5ede5a9b24e37ca20bd04978",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case04_person_water_jump/redir_endpoint_v2v_timestep_adapter_81f/native.mp4",
+  "native_resolution": [1248,704], "native_fps": 16, "native_frames": 81, "seed": 42, "sampler_steps": 20, "inference_s": 759.21,
+  "native_first_to_stage2_endpoint": {"method":"decoded RGB frame0 vs true Stage2 frame80 PNG bicubic resized to1248x704", "mae":9.158,"psnr_db":22.06},
+  "component_review": {"endpoint_first_view":"present at frame0; actual endpoint VAE latent inserted", "source_action_order":"FAIL: person disappears after first frame; later frames green bands and dark noise, while source is still airborne through frame80", "identity_background":"FAIL: scene collapses", "camera_static":"not meaningful after content collapse", "stage3_pass":false,"strict_stage23_seam_pass":false,"strict_three_stage_pass":false},
+  "repro_status": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case04_person_water_jump/redir_endpoint_v2v_timestep_adapter_81f/inputs_and_status.json",
+  "diagnostic_contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case04_person_water_jump/redir_endpoint_v2v_timestep_adapter_81f/diagnostic_contact.png"
+}

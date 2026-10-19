@@ -1,0 +1,14 @@
+{
+  "case_id": "case13_woman_rooftop_dance",
+  "model": "omnicamera",
+  "stage": 3,
+  "model_version": "official wykup316/OmniCamera joint_params_step61000 early checkpoint",
+  "status": "unsupported_strict_endpoint",
+  "strict_stage_pass": false,
+  "input_mode": "official trajectory+video mode accepts source post-t* clip and relative camera trajectory only",
+  "source_video_input": true,
+  "stage2_last_frame_input_supported": false,
+  "absolute_target_view_input_supported": false,
+  "native_video": "",
+  "failure_reason": "Official _trajectory_tensor normalizes every pose by the first pose; a static trajectory at the Stage2 terminal camera becomes identity. generate_video has no Stage2 actual last-frame input. Cannot enforce Stage3 start from the actual new viewpoint. No output is claimed."
+}

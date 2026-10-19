@@ -1,0 +1,27 @@
+{
+  "case_id": "case11_man_contemporary_dance",
+  "status": "generated_visual_failure",
+  "model": "OmniCamera public early checkpoint with official Wan2.2-TI2V-5B base; isolated experimental lower-level joint-condition adapter",
+  "public_interface_supports_joint_endpoint_plus_source_video": false,
+  "entry_point": "lower-level WanVideoPipeline(mode=traj2v_v2v, frame_cond_video=source post81, input_image=actual Stage2 endpoint, camera_info=identity relative C2W)",
+  "adapter": "preserve official VAE first-frame insertion and per-step pin; only set fuse_vae_embedding_in_latents=False to avoid 36036-vs-18018 V2V token-timestep mismatch; unchanged weights, no postdecode replacement",
+  "combination_trained": "unknown; cannot call this official published input mode",
+  "source_post_action_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case11_man_contemporary_dance/source_post_81frames.mp4",
+  "source_frame_range_inclusive": [236,316],
+  "source_sampling": "official _video_tensor uses all81 local frames0–80 once, ImageOps.fit center crop to1248x704; output16fps, original timing not retained",
+  "stage2_native_endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case11_man_contemporary_dance/stage2_actual_final_native.png",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case11_man_contemporary_dance/redir_endpoint_v2v_timestep_adapter_81f/native.mp4",
+  "native_resolution": [1248,704], "native_fps": 16, "native_frames": 81, "seed": 42, "sampler_steps": 20, "inference_s": 727.34,
+  "native_first_to_stage2_endpoint": {"method":"decoded RGB frame0 vs actual endpoint bicubic-resized to1248x704", "mae":2.83,"psnr_db":28.862},
+  "component_review": {
+    "endpoint_first_view": "close initial image and actual endpoint latent inserted",
+    "source_action_order": "FAIL: person disappears after first frames; frame20/40/60/80 show only blue-gray wall",
+    "identity_background": "FAIL: content collapses to empty scene after first frame",
+    "camera_static": "irrelevant because content disappears",
+    "stage3_pass": false,
+    "strict_stage23_seam_pass": false,
+    "strict_three_stage_pass": false
+  },
+  "repro_status": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case11_man_contemporary_dance/redir_endpoint_v2v_timestep_adapter_81f/inputs_and_status.json",
+  "diagnostic_contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case11_man_contemporary_dance/redir_endpoint_v2v_timestep_adapter_81f/diagnostic_contact.png"
+}

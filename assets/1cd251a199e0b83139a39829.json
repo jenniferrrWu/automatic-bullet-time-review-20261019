@@ -1,0 +1,30 @@
+{
+  "model": "hunyuan",
+  "variant": "experimental_sampling_endpoint_anchor",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/actual_stage2_endpoints/redirector/case13_woman_rooftop_dance.png",
+  "endpoint_file_sha256": "8c26619bac537ebadf665c8f1281b3d806f69e29a7d2f9b5a0d8dbe0547d982a",
+  "pin_count": 50,
+  "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/hunyuan/stage3/case13_woman_rooftop_dance/scheduler_factory_anchor_v2_20261014/effective_endpoint.png",
+  "intervention": "Every native scheduler step: first generated time latent=(1-sigma_next)*VAE(actual endpoint)+sigma_next*same initial noise; source-video/action condition remains supplied",
+  "scheduler_factory_hook_calls": 1,
+  "endpoint_encoding_path": "actual Stage2 PNG → official VAE → (raw-shift)*scaling",
+  "official_vae_scale_factor": 16,
+  "actual_endpoint_preprocessing": [
+    848,
+    480
+  ],
+  "final_sigma": 0.0,
+  "generated_first_latent_offset": 0,
+  "endpoint_latent_shape": [
+    1,
+    32,
+    1,
+    30,
+    53
+  ],
+  "final_latent_max_abs_delta": 0.0,
+  "status": "completed"
+}

@@ -1,0 +1,72 @@
+{
+  "case_id": "case11_man_contemporary_dance",
+  "model": "dimensionx_current",
+  "stage": 2,
+  "status": "visual_failed",
+  "model_version": "official DimensionX orbit-right LoRA + CogVideoX-5B-I2V",
+  "input_mode": "single exact manually specified t* frame I2V; no source video input",
+  "source_video": "/public/wufeier/automatic_bullet_time/inputs/formal15/new_dance/a-man-dancing-with-contemporary-moves-7674203.mp4",
+  "t_star_frame_zero_based": 236,
+  "subject": "male contemporary dancer",
+  "t_star_image": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/dimensionx_current/stage2/case11_man_contemporary_dance/exact_manual_tstar.png",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/dimensionx_current/stage2/case11_man_contemporary_dance/native.mp4",
+  "log": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/dimensionx_current/stage2/case11_man_contemporary_dance/inference.log",
+  "prompt": "The supplied image is the exact frozen highlight frame. Keep the person, clothing, pose, objects, background geometry, lighting and shadows frozen in that instant. Move only the camera rightward around the stationary subject, aiming for about 30 degrees to a new view with genuine foreground-background parallax, then stop. No person action, pose drift, scene change, cut, pan-only motion, crop-only motion, or zoom-only motion.",
+  "seed": 42,
+  "input_camera_control": "discrete orbit-right LoRA category",
+  "target_angle_degrees_task_only": 30,
+  "numeric_terminal_camera_control_supplied": false,
+  "camera_coordinate_system": "not exposed by public DimensionX I2V interface",
+  "native_conditions": {
+    "frames": 49,
+    "fps": 8,
+    "steps": 50,
+    "guidance_scale": 6.0,
+    "dynamic_cfg": true
+  },
+  "stage2_task_pass": false,
+  "strict_full_chain": false,
+  "native_output_policy": "Direct official I2V MP4; no boundary replacement or re-encode.",
+  "t_star_image_info": {
+    "width": 2560,
+    "height": 1440,
+    "avg_frame_rate": "25/1",
+    "nb_read_frames": "1"
+  },
+  "command": [
+    "/public/wufeier/automatic_bullet_time/envs/hunyuan-i2v/bin/python",
+    "/public/wufeier/bullet_time_pipeline/scripts/run_v4_dimensionx_native.py",
+    "--model",
+    "/public/wufeier/bullet_time_pipeline/model_weights/three_stage_v4_20260928/dimensionx/CogVideoX-5b-I2V",
+    "--lora",
+    "/public/wufeier/bullet_time_pipeline/model_weights/three_stage_v4_20260928/dimensionx/orbit_right_lora_weights.safetensors",
+    "--image",
+    "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/dimensionx_current/stage2/case11_man_contemporary_dance/exact_manual_tstar.png",
+    "--prompt",
+    "The supplied image is the exact frozen highlight frame. Keep the person, clothing, pose, objects, background geometry, lighting and shadows frozen in that instant. Move only the camera rightward around the stationary subject, aiming for about 30 degrees to a new view with genuine foreground-background parallax, then stop. No person action, pose drift, scene change, cut, pan-only motion, crop-only motion, or zoom-only motion.",
+    "--output",
+    "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/dimensionx_current/stage2/case11_man_contemporary_dance/native.mp4",
+    "--seed",
+    "42"
+  ],
+  "gpu_physical_index": 3,
+  "inference_s": 510.2,
+  "exit_code": 0,
+  "native_video_info": {
+    "width": 720,
+    "height": 480,
+    "avg_frame_rate": "8/1",
+    "duration": "6.125000",
+    "nb_read_frames": "49"
+  },
+  "component_review": {
+    "native_sampled_frames": [0, 12, 24, 36, 48],
+    "native_contact_sheet": "results/stage23_basemodel_v2_20261012/raw/dimensionx_current/stage2/case11_man_contemporary_dance/native_contact_0_12_24_36_48.jpg",
+    "frozen_tstar_pose": "failed: raised leg progressively folds and lowers, arms and torso change",
+    "camera_motion_parallax": "partial qualitative camera-orbit appearance: studio backdrop edge and wall rotate relative to dancer, but single-image geometry is synthesized and deforms; cannot establish physically true parallax",
+    "target_terminal_30_degrees": "unverified; public interface accepts no numeric target pose",
+    "identity_background": "dancer remains broadly similar; backdrop letters and wall geometry warp and edge reconfigures",
+    "strict_stage2_pass": false
+  },
+  "failure_reason": "Direct 49-frame native video decodes, but the t* kick pose does not remain frozen and studio geometry changes; numeric terminal angle cannot be controlled or verified."
+}

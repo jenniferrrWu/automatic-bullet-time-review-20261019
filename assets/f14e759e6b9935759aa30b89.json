@@ -1,0 +1,33 @@
+{
+  "case_id": "case13_woman_rooftop_dance",
+  "model": "trajectorycrafter",
+  "stage": 2,
+  "model_version": "official TrajectoryCrafter/TrajectoryCrafter + CogVideoX-Fun-V1.1-5b-InP",
+  "status": "visual_failed",
+  "strict_stage_pass": false,
+  "input_mode": "49 repeated t* frames + official bullet mode + authored per-frame C2W orbit",
+  "input_video": "/public/wufeier/automatic_bullet_time/results/expert_execution_v1_20261012/inputs/recam/stage2/case13_woman_rooftop_dance.mp4",
+  "source_post_video_provided": false,
+  "stage2_actual_endpoint_frame_provided": false,
+  "strict_stage3_interface": "not applicable",
+  "camera_coordinate_system": "official C2W left-up-backward convention; authored rightward Y-axis arc about world origin with center-depth radius from DepthCrafter",
+  "requested_target_pose": [
+    0,
+    30,
+    0,
+    0,
+    0
+  ],
+  "camera_path_file": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/camera/trajectorycrafter/case13_woman_rooftop_dance_stage2_orbit_corrected.json",
+  "adapter_camera_override": "official target_pose=[0,30,0,0,0] alone rotates in place; get_poses output is replaced with authored true circular C2W matrices, official warp/diffusion unchanged",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/trajectorycrafter/stage2/case13_woman_rooftop_dance/gen.mp4",
+  "seed": 42,
+  "inference_steps": 20,
+  "prompt_control": "official BLIP2 auto-caption + default refine_prompt; --prompt CLI argument is unused by demo.py",
+  "auto_caption_file": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/captions/trajectorycrafter/case13_woman_rooftop_dance_stage2_orbit_corrected.txt",
+  "failure_reason": "Native 0/24/48 review: kick/arm silhouette and framing change; rooftop railings/buildings shift and deform, endpoint crops the person. Supplied orbit is real, but frozen subject/background and target rendered view are not reliable.",
+  "actual_numeric_angle_control": true,
+  "visual_review": {"frames_checked": [0, 24, 48], "freeze": "fail: extended leg and arm/torso silhouette drift", "parallax": "supplied C2W is a real arc; output background change cannot be separated from reconstruction artifacts", "endpoint_view": "numeric 30-degree C2W endpoint supplied; rendered endpoint crops subject and is not calibrated", "identity_background": "subject broadly recognizable, rooftop geometry not stable", "strict_stage2_pass": false},
+  "inference_s": 972.9,
+  "peak_allocated_mib": 24242.0
+}

@@ -1,0 +1,42 @@
+{
+  "case_id": "case13_woman_rooftop_dance",
+  "model": "vista4d",
+  "stage": 2,
+  "model_version": "official Eyeline-Labs/Vista4D 384p49_step=30000 + Wan2.1-T2V-14B",
+  "status": "visual_failed",
+  "strict_stage_pass": false,
+  "input_mode": "49 repeated exact t* frames; official Pi3X depth and all-static masks; authored 49-frame C2W rightward 30-degree orbit; source video and rendered point-cloud video",
+  "explicit_t_star_input": "t* image repeated as video, not numeric timestamp parameter",
+  "target_direction": "rightward",
+  "target_angle_deg": 30,
+  "camera_coordinate_system": "Pi3X first-frame C2W; +Z forward, +X right; pivot at median positive first-frame depth",
+  "camera_path_file": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_trial/case13_woman_rooftop_dance/camera_right30.npz",
+  "numeric_camera_control_supplied": true,
+  "source_post_video_provided": false,
+  "strict_stage3_interface": "not tested: Stage2 diagnostic only",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_trial/case13_woman_rooftop_dance/vista4d_384p_native_usp02/video_seed=42.mp4",
+  "execution_gpus": [
+    0,
+    2
+  ],
+  "official_usp": true,
+  "seed": 42,
+  "visual_review": "Reviewed native official MP4 frames 0/12/24/36/48 against manual source t*=236. Dancer is already sharply deformed/partially occluded at frame12 and completely disappears by frame24; remains absent at frames36/48. Background sofa/towers/patio shift and distort. Thus t* pose and identity do not stay frozen, subject/background stability fails, and the numeric 30-degree endpoint cannot be accepted as a visually achieved subject-centric endpoint. Visible background displacement alone is not reliable proof of genuine parallax after the subject vanishes.",
+  "geometry_limit": "single exact t* frame repeated; depth reconstruction cannot expose unseen surfaces; all-static official mask branch bypasses gated SAM3",
+  "inference_s": 2043.5654813512228,
+  "peak_gpu_mib": {
+    "0": 45336,
+    "2": 45043
+  },
+  "actual_inference_python": "/public/wufeier/automatic_bullet_time/envs/depthdirector/bin/python",
+  "failure_reason": "Native output decodes but the dancer disappears after approximately frame12 and is absent by frame24 through endpoint. Strict freeze, subject preservation and target viewpoint fail; genuine subject-centric parallax not demonstrated.",
+  "component_review": {
+    "freeze_at_t_star": false,
+    "true_subject_centered_parallax": "not demonstrated; background shifts while the subject disappears",
+    "target_endpoint_view": false,
+    "subject_identity_pose_preserved": false,
+    "background_geometry_stable": false,
+    "native_output_only": true,
+    "contact_sheet_for_audit": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/vista4d_trial/case13_woman_rooftop_dance/review_contact_native.png"
+  }
+}

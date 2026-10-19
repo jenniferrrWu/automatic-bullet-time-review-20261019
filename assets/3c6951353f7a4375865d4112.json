@@ -1,0 +1,22 @@
+{
+  "case_id": "case11_man_contemporary_dance", "status": "generated_pending_visual_review",
+  "model": "CamCloneMaster official step9500, isolated inference-only latent-anchor adapter",
+  "mode": "V2V: source post-action video + actual Stage2 endpoint first image + 81 repeated endpoint frames as static reference video",
+  "source_post_action_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case11_man_contemporary_dance/source_post_81frames.mp4",
+  "source_frame_range_inclusive": [236,316],
+  "source_fps": 25,
+  "timing_note": "81 source frames at25fps are generated as81 frames at30fps; action order can be assessed, exact source duration is not preserved",
+  "stage2_native_endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case11_man_contemporary_dance/stage2_actual_final_native.png",
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/raw/redirector/stage2/case11_man_contemporary_dance/native.mp4",
+  "stage2_final_frame_index": 80,
+  "stage2_native_endpoint_sha256": "5eee11d553b334879ed12d2007d9e977c338e9023f52975d8e7aced61cd8b23c",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/camclonemaster/stage3/case11_man_contemporary_dance/redir_endpoint_latent_anchor_81f/official_output/camclone_output_video_000.mp4",
+  "native_resolution": [832,480], "native_fps": 30, "native_frames": 81, "seed": 0, "sampler_steps": 50,
+  "inference_s": 2209.2, "camera_control": "static reference video, no calibrated absolute endpoint pose",
+  "sampling_variant": "custom inference-only first-VAE-time-latent pin after each official scheduler step; no output-frame replacement, code/weights unchanged",
+  "adapter_audit": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/camclonemaster/stage3/case11_man_contemporary_dance/redir_endpoint_latent_anchor_81f/latent_anchor_audit.json",
+  "adapter_pin_count": 50,
+  "native_first_to_stage2_endpoint": {"method":"decoded RGB frame0 vs true Stage2 endpoint resized bicubic to 832x480", "mae":2.088,"psnr_db":38.68,"official_mask_baseline_mae":3.147,"official_mask_baseline_psnr_db":34.691},
+  "component_review": {"source_action_order":"nine sampled frames0,10,...,80 show broad corresponding dance pose order, not frame-exact", "endpoint_first_view":"close native pixel agreement, VAE/codec residual remains", "camera_static":"background wall appears stable at nine sampled frames; full visual review pending", "stage3_pass":null,"strict_stage23_seam_pass":null,"strict_three_stage_pass":false},
+  "diagnostic_contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/camclonemaster/stage3/case11_man_contemporary_dance/redir_endpoint_latent_anchor_81f/diagnostic_contact_9frame.png"
+}

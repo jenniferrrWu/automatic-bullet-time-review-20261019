@@ -1,0 +1,49 @@
+{
+  "case_id": "case04_person_water_jump",
+  "model": "worldinworld",
+  "stage": 2,
+  "status": "visual_failed",
+  "strict_stage_pass": false,
+  "model_version": "WorldinWorld official 3933f142 + experimental 3-GPU FSDP/CPU-KV adaptation",
+  "input_mode": "real source t*-centered window + official VDA depth + explicit OpenCV C2W trajectory; Stage1 prefix not tested",
+  "source_video": "/public/wufeier/automatic_bullet_time/inputs/review_candidates/person_water_jump.mp4",
+  "highlight_source_frame": 525,
+  "highlight_time_s": 17.5175,
+  "source_window_frame_range_inclusive": [
+    435,
+    652
+  ],
+  "highlight_working_frame": 48,
+  "stage_output_frame_range_inclusive": [
+    48,
+    127
+  ],
+  "target_angle_deg": 30,
+  "actual_numeric_angle_control": true,
+  "camera_path_file": "/public/wufeier/automatic_bullet_time/models/WorldinWorld_multigpu_trial/workspace/wiw_case04_water_jump_window_bt_aligned/traj_oneway30_hold/poses.npy",
+  "camera_coordinate_system": "OpenCV camera-to-world; subject pixel (580,145) lifted using official VDA depth",
+  "trial_log": "/public/wufeier/automatic_bullet_time/results/wiw_multigpu_trial_20261013/records/case04_three_gpu.log",
+  "seed": 42,
+  "native_video": "/public/wufeier/automatic_bullet_time/results/wiw_multigpu_trial_20261013/raw/case04_stage2_native_frame_extract_lossless.mp4",
+  "failure_reason": "Experimental CPU-KV adapter output invalid: t* waterfall jumper is absent in Stage2; colorful interface-like artifacts and unrelated geometry prevent freeze/parallax/endpoint assessment. The same adapter corrupts an official tennis control by frame16, so this is not a valid model-quality judgment.",
+  "visual_review_pending": false,
+  "test_validity": "invalidated_by_experimental_cpu_kv_adapter_control",
+  "model_quality_inference_permitted": false,
+  "visual_review": {
+    "source_tstar_evidence": "/public/wufeier/automatic_bullet_time/results/wiw_multigpu_trial_20261013/records/case04_source_tstar.jpg",
+    "stage_contact_evidence": "/public/wufeier/automatic_bullet_time/results/wiw_multigpu_trial_20261013/records/case04_stage2_contact.jpg",
+    "freeze_of_tstar_subject": false,
+    "real_parallax_verified": false,
+    "target_endpoint_verified": false,
+    "subject_and_background_preserved": false
+  },
+  "native_full_video": "/public/wufeier/automatic_bullet_time/results/wiw_multigpu_trial_20261013/raw/case04_oneway30_stage23_native.mp4",
+  "native_stage_archive": "/public/wufeier/automatic_bullet_time/results/wiw_multigpu_trial_20261013/raw/case04_stage2_native_frame_extract_lossless.mp4",
+  "browser_video": "/public/wufeier/automatic_bullet_time/results/wiw_multigpu_trial_20261013/raw/case04_stage2_browser_h264.mp4",
+  "native_clip_kind": "Pixel-lossless stage-frame extraction from the untouched one-pass native MP4; not separate model generation or boundary repair",
+  "browser_video_kind": "H.264 High/yuv420p CRF18 browser-compatible copy at original 832x464/16fps; no frame replacement or enhancement",
+  "native_full_output_frames": 189,
+  "inference_s": 752.6,
+  "peak_allocated_mib": 41001.0,
+  "stage2_last_frame_input_supported": "one-pass temporal continuity, not a separate Stage3 endpoint image input"
+}

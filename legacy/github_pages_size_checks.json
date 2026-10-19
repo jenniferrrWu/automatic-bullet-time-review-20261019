@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "native_files": 90,
+  "native_bytes": 420013227,
+  "total_bytes": 430390012,
+  "max_file_bytes": 57531298,
+  "all_files_under_100MiB": true,
+  "legacy_directory_under_500MB": true,
+  "original_source_files_excluded": true
+}

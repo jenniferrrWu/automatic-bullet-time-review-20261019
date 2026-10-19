@@ -1,0 +1,21 @@
+{
+  "variant": "experimental_endpoint_anchor_v2_20261014",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/redirector/case04_person_water_jump/stage2_actual_final_native.png",
+  "endpoint_file_sha256": "7a62d858af01205d7a82edf25c0af25bed3618f1f1f18fd51b60ddf06e0ea9ae",
+  "official_first_frame_parameter_consumed": false,
+  "pin_count": 50,
+  "status": "completed",
+  "source_motion_condition_unchanged": true,
+  "endpoint_latent_shape": [
+    1,
+    16,
+    1,
+    60,
+    104
+  ],
+  "final_sigma": 0.0,
+  "final_latent_max_abs_delta": 0.0
+}

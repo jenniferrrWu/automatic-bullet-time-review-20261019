@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "pages": [
+    {
+      "page": "index.html",
+      "rendered_players": 90,
+      "all_preview_paths_sizes_posters_verified": true,
+      "all_native_local_originals_resolve": true,
+      "no_video_eager_src": true,
+      "mount_called": true,
+      "score_and_json_csv_export_ran": true
+    },
+    {
+      "page": "baseline.html",
+      "rendered_players": 30,
+      "all_preview_paths_sizes_posters_verified": true,
+      "all_native_local_originals_resolve": true,
+      "no_video_eager_src": true,
+      "mount_called": true,
+      "score_and_json_csv_export_ran": true
+    }
+  ],
+  "native_video_count": 90,
+  "source_browser_derivative_count": 15,
+  "all_media_references_resolve": true,
+  "shared_js_syntax_passed": true,
+  "credential_scan_passed": true,
+  "credential_hits": [],
+  "historical_stage3_semantics": "remains frozen; never resumes action",
+  "scope": "Static HTML, rendered inline JS in Node, saved-media frame/PTS checks; no real browser decoder test",
+  "original_review": {
+    "path": "/public/wufeier/automatic_bullet_time/results/site/review.html",
+    "sha256": "abfcced573456d1137dd4580207ba56dbc34fe1d44bbc1bf00cfe3557c188464"
+  }
+}

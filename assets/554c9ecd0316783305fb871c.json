@@ -1,0 +1,21 @@
+{
+  "variant": "experimental_endpoint_anchor_v2_20261014",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/redirector/case11_man_contemporary_dance/stage2_actual_final_native.png",
+  "endpoint_file_sha256": "5eee11d553b334879ed12d2007d9e977c338e9023f52975d8e7aced61cd8b23c",
+  "official_first_frame_parameter_consumed": false,
+  "pin_count": 50,
+  "status": "completed",
+  "source_motion_condition_unchanged": true,
+  "endpoint_latent_shape": [
+    1,
+    16,
+    1,
+    60,
+    104
+  ],
+  "final_sigma": 0.0,
+  "final_latent_max_abs_delta": 0.0
+}

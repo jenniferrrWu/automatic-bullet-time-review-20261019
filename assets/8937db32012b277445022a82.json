@@ -1,0 +1,23 @@
+{
+  "model": "wan",
+  "variant": "experimental_sampling_endpoint_anchor",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/actual_stage2_endpoints/redirector/case11_man_contemporary_dance.png",
+  "endpoint_file_sha256": "4e20bcc2801fad4222b7b03c3010b62bcc66437957d75116855e227a3777cf41",
+  "pin_count": 50,
+  "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/wan/stage3/case11_man_contemporary_dance/actual_endpoint_latent_anchor/effective_endpoint.png",
+  "intervention": "Every native scheduler step: first generated time latent=(1-sigma_next)*VAE(actual endpoint)+sigma_next*same initial noise; source-video/action condition remains supplied",
+  "endpoint_encoding_path": "official VACE reference-image VAE prefix; first generated time latent is index1",
+  "final_sigma": 0.0,
+  "generated_first_latent_offset": 1,
+  "endpoint_latent_shape": [
+    1,
+    16,
+    1,
+    60,
+    104
+  ],
+  "status": "completed"
+}

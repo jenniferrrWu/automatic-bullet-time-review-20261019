@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "pin_count": 4,
+  "endpoint_file_sha256": "7aaa0f5435cfe432442352d9214926bcc633c6a7476f506ebd2c2e6591b0a543",
+  "official_weights_unchanged": true,
+  "postdecode_frame_replacement": false,
+  "mode": "experimental first x0 time latent constraint inside native causal sampling; unchanged later latents",
+  "endpoint_latent_shape": [
+    16,
+    1,
+    58,
+    104
+  ],
+  "final_latent_max_abs_delta": 0.0,
+  "final_sigma": 0.0
+}

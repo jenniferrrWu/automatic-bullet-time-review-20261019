@@ -1,0 +1,1302 @@
+{
+  "count": 185,
+  "bytes": 279343559,
+  "identity": "Unmodified native output MP4s selected from the displayed 78 + 134 result links; preview data-src values unchanged.",
+  "rows": [
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case02_person_rock_jump/native.mp4",
+      "bytes": 8558453,
+      "sha256": "035b559a396bb57cddf2045f3c9ee25801a95a592f73f0301c6b3d7938b66563",
+      "public_path": "assets/035b559a396bb57cddf2045f.mp4",
+      "original_attachment_anchor": "item-035b559a396bb57cddf2"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/hunyuan/stage3/case02_person_rock_jump/remaining12_actual_endpoint_v1_20261015/native.mp4",
+      "bytes": 438344,
+      "sha256": "03825f665cba522e8fa16f7b4c1e99ebbca9f9084ad050cfe0402fe671662330",
+      "public_path": "assets/03825f665cba522e8fa16f7b.mp4",
+      "original_attachment_anchor": "item-03825f665cba522e8fa1"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/redirector/stage3/case04_person_water_jump/experimental_endpoint_anchor_v2_20261014/native.mp4",
+      "bytes": 3083088,
+      "sha256": "04c0e87580e3ee4926f0cc1b20a60c0ffb3957d6b349c21235885f9b3c4849d9",
+      "public_path": "assets/04c0e87580e3ee4926f0cc1b.mp4",
+      "original_attachment_anchor": "item-04c0e87580e3ee4926f0"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/spacetimepilot/stage3/case11_man_contemporary_dance/experimental_boundary_latent_anchor_20steps/case11_man_contemporary_dance_timeforward_10.mp4",
+      "bytes": 192057,
+      "sha256": "052e90e2737a89f55587441837d402137207263590d521bdcba716b433377e13",
+      "public_path": "assets/052e90e2737a89f555874418.mp4",
+      "original_attachment_anchor": "item-052e90e2737a89f55587"
+    },
+    {
+      "source": "results/wiw_multigpu_trial_20261013/raw/case13_direct_tstar_cgar_2gpu_stage2_native_frame_extract_lossless.mp4",
+      "bytes": 6507485,
+      "sha256": "069b20fe49374d6e42bcfe06b584d0686032702a09ab08dc4a66bf800c49dc55",
+      "public_path": "assets/069b20fe49374d6e42bcfe06.mp4",
+      "original_attachment_anchor": "item-069b20fe49374d6e42bc"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/hunyuan/stage3/case05_person_yacht_jump/remaining12_actual_endpoint_v1_20261015/native.mp4",
+      "bytes": 1276574,
+      "sha256": "099c4a65a3949a8573260057af30711140591d207131479c077f6b5090099105",
+      "public_path": "assets/099c4a65a3949a8573260057.mp4",
+      "original_attachment_anchor": "item-099c4a65a3949a857326"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/raw/gen3c_prompt/stage2/case13_woman_rooftop_dance/native.mp4",
+      "bytes": 499064,
+      "sha256": "0a46ffd3d05280594c6149b75c31ba9b05de581cb50b1ec59f798ec495d6f7fa",
+      "public_path": "assets/0a46ffd3d05280594c6149b7.mp4",
+      "original_attachment_anchor": "item-0a46ffd3d05280594c61"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/depthdirector_stage3/preprocess/case04_person_water_jump/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "bytes": 6297438,
+      "sha256": "0c7b6a4fed8687d9b64748999c129fb3d75716aacbb13f77d34b4d14680d2fec",
+      "public_path": "assets/0c7b6a4fed8687d9b6474899.mp4",
+      "original_attachment_anchor": "item-0c7b6a4fed8687d9b647"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/trajectorycrafter/stage3/case04_person_water_jump/fixedview_endpoint_anchor_v2_20261014/native.mp4",
+      "bytes": 1244031,
+      "sha256": "0cadcf126fddca78a094c98f6bf554d6d0ba6c5f00e88d1ab0563117f6d9fb45",
+      "public_path": "assets/0cadcf126fddca78a094c98f.mp4",
+      "original_attachment_anchor": "item-0cadcf126fddca78a094"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792082550_1/output_0000.mp4",
+      "bytes": 3078803,
+      "sha256": "0da68db938efd9c70483d87d7d58b8e7ad20319bb54e2378a0993468b88bfc97",
+      "public_path": "assets/0da68db938efd9c70483d87d.mp4",
+      "original_attachment_anchor": "item-0da68db938efd9c70483"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case06_dog_collie_run/native.mp4",
+      "bytes": 544507,
+      "sha256": "0ffd9eca8e273c231ff51bfd38641df7ca65f8452c8fc71bdd78e2f4a683e869",
+      "public_path": "assets/0ffd9eca8e273c231ff51bfd.mp4",
+      "original_attachment_anchor": "item-0ffd9eca8e273c231ff5"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/stp_static_source_anchor/stage2/case13_woman_rooftop_dance/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 253958,
+      "sha256": "1176d472a40041b018ea2d831c813adc4998d0cad1c63a39f8cf160b6631a3e2",
+      "public_path": "assets/1176d472a40041b018ea2d83.mp4",
+      "original_attachment_anchor": "item-1176d472a40041b018ea"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case06_dog_collie_run/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 239348,
+      "sha256": "12bfc4639cd15d351f045d9fd049e5f82d982db09671748d0a5d68e605b44e8e",
+      "public_path": "assets/12bfc4639cd15d351f045d9f.mp4",
+      "original_attachment_anchor": "item-12bfc4639cd15d351f04"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/trajectorycrafter/stage2/case04_person_water_jump/gen.mp4",
+      "bytes": 2457415,
+      "sha256": "12c1d997616f16b0319085160661e4752db0f87c9eeb763fdcfad9f2203183d8",
+      "public_path": "assets/12c1d997616f16b031908516.mp4",
+      "original_attachment_anchor": "item-12c1d997616f16b03190"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/hunyuan/stage3/case07_dog_courtyard_run/remaining12_actual_endpoint_v1_20261015/native.mp4",
+      "bytes": 256280,
+      "sha256": "1816cf3c9b91dace0fd3bef32be6b8fb584a8ad9e215aded64a2ea1f5b0fb9c4",
+      "public_path": "assets/1816cf3c9b91dace0fd3bef3.mp4",
+      "original_attachment_anchor": "item-1816cf3c9b91dace0fd3"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792059349_1/output_0000.mp4",
+      "bytes": 1971752,
+      "sha256": "18825779409c41373d329a3ac11c9f036b67a8fd5c2abf1e81f1c6945a3b7e50",
+      "public_path": "assets/18825779409c41373d329a3a.mp4",
+      "original_attachment_anchor": "item-18825779409c41373d32"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case02_person_rock_jump/native.mp4",
+      "bytes": 604643,
+      "sha256": "18c6ed3c9d27fb62f17ca9445f174c0bdb3b896949b94a90ab6e18f15a425882",
+      "public_path": "assets/18c6ed3c9d27fb62f17ca944.mp4",
+      "original_attachment_anchor": "item-18c6ed3c9d27fb62f17c"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case03_person_snow_jump/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 226456,
+      "sha256": "19873d10b8485a3f79f42791111e29233df78734c72664a7fe320c2a95e2bbcf",
+      "public_path": "assets/19873d10b8485a3f79f42791.mp4",
+      "original_attachment_anchor": "item-19873d10b8485a3f79f4"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case13_woman_rooftop_dance/case13_woman_rooftop_dance_anchor_v2.mp4",
+      "bytes": 345645,
+      "sha256": "1a44e43f7fc29a44621506b35d1e57638386c53c0f943c00c0d9205a74671fef",
+      "public_path": "assets/1a44e43f7fc29a44621506b3.mp4",
+      "original_attachment_anchor": "item-1a44e43f7fc29a446215"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case03_person_snow_jump/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 136796,
+      "sha256": "1c558b135443a9cb20c90fb02f8e1cc10a6c494aeedfaced884fbcbcc909cbdd",
+      "public_path": "assets/1c558b135443a9cb20c90fb0.mp4",
+      "original_attachment_anchor": "item-1c558b135443a9cb20c9"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case09_dog_sunny_run/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 162219,
+      "sha256": "1ce47783de4c4ed22c0ddd3a48d461cecd036e7edd4dc5eca5ef3a60866f9e6a",
+      "public_path": "assets/1ce47783de4c4ed22c0ddd3a.mp4",
+      "original_attachment_anchor": "item-1ce47783de4c4ed22c0d"
+    },
+    {
+      "source": "results/expert_execution_v1_20261012/raw/recam/stage2/case11_man_contemporary_dance/native.mp4",
+      "bytes": 105151,
+      "sha256": "1eb5ac89cec9bb2155d26d238a6ca3b133f4e423c631bbbeff8f841531fbc164",
+      "public_path": "assets/1eb5ac89cec9bb2155d26d23.mp4",
+      "original_attachment_anchor": "item-1eb5ac89cec9bb2155d2"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/recam/stage2/case04_person_water_jump/native.mp4",
+      "bytes": 458631,
+      "sha256": "1fbab2c52b033d38979801dbfde248a687cc4ab4221e30ef9e55e6f37ca52c3a",
+      "public_path": "assets/1fbab2c52b033d38979801db.mp4",
+      "original_attachment_anchor": "item-1fbab2c52b033d389798"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/gen3c_prompt/stage2/case04_person_water_jump/native.mp4",
+      "bytes": 1009465,
+      "sha256": "2058bcda78dec5bd068862294ce433ab5dda7c30037bac9696194972a38740df",
+      "public_path": "assets/2058bcda78dec5bd06886229.mp4",
+      "original_attachment_anchor": "item-2058bcda78dec5bd0688"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case03_person_snow_jump/native/video_native.mp4",
+      "bytes": 148456,
+      "sha256": "2164714c39d7ebc9174a03407e536c431d19c340a15a8734957a0703501ad057",
+      "public_path": "assets/2164714c39d7ebc9174a0340.mp4",
+      "original_attachment_anchor": "item-2164714c39d7ebc9174a"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/recam/stage3/case04_person_water_jump/full50_endpoint_anchor_v2_20261014/native.mp4",
+      "bytes": 346380,
+      "sha256": "2332b93ca448b10ff785084480c6f247f9b06ce9a652dcc28206a4110b1e473c",
+      "public_path": "assets/2332b93ca448b10ff7850844.mp4",
+      "original_attachment_anchor": "item-2332b93ca448b10ff785"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/trajectorycrafter/stage3/case13_woman_rooftop_dance/fixedview_endpoint_anchor_v2_20261014/native.mp4",
+      "bytes": 1329611,
+      "sha256": "2535b7f038dea50ec039c07c16b9c764c185ae0b6970ea43e79ba02fd07d6e67",
+      "public_path": "assets/2535b7f038dea50ec039c07c.mp4",
+      "original_attachment_anchor": "item-2535b7f038dea50ec039"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case10_cat_pounce/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 162572,
+      "sha256": "27918c00635d1956732d2400fe504b25441bfcad7e292ae23a16ceafa407e088",
+      "public_path": "assets/27918c00635d1956732d2400.mp4",
+      "original_attachment_anchor": "item-27918c00635d1956732d"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case15_woman_studio_dance/native.mp4",
+      "bytes": 266002,
+      "sha256": "279f4d244abcc0ba7608465d84732d3e124ecda85a1d3339e56f2cc52693c486",
+      "public_path": "assets/279f4d244abcc0ba7608465d.mp4",
+      "original_attachment_anchor": "item-279f4d244abcc0ba7608"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case07_dog_courtyard_run/native.mp4",
+      "bytes": 413772,
+      "sha256": "2c749b35b652b9b296340192fa618cb0aab3092c6edd739cbdb1797706c48b22",
+      "public_path": "assets/2c749b35b652b9b296340192.mp4",
+      "original_attachment_anchor": "item-2c749b35b652b9b29634"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case11_man_contemporary_dance/redir_endpoint_latent_anchor_81f/native_pose.mp4",
+      "bytes": 132722,
+      "sha256": "2db33df05e387619ef5c79bf54950f79d7b7fdcc57d401b5caea312aa66fece7",
+      "public_path": "assets/2db33df05e387619ef5c79bf.mp4",
+      "original_attachment_anchor": "item-2db33df05e387619ef5c"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/raw/trajectorycrafter/stage2/case13_woman_rooftop_dance/gen.mp4",
+      "bytes": 1184754,
+      "sha256": "30f8d1a0c7ca7b5fe5efbd2621f203c674d5544ee3bdc09f9f8a7cee8de3dfe0",
+      "public_path": "assets/30f8d1a0c7ca7b5fe5efbd26.mp4",
+      "original_attachment_anchor": "item-30f8d1a0c7ca7b5fe5ef"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/depthdirector/preprocess/case04_person_water_jump/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "bytes": 10082507,
+      "sha256": "311d07cdbdf90a4092498c3bc6996faa54fc14fba0667e7ea01673de99fb97ee",
+      "public_path": "assets/311d07cdbdf90a4092498c3b.mp4",
+      "original_attachment_anchor": "item-311d07cdbdf90a409249"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/hunyuan/stage3/case06_dog_collie_run/remaining12_actual_endpoint_v1_20261015/native.mp4",
+      "bytes": 1148559,
+      "sha256": "31b0cb7497d982f777d31810be978a78f4ee9fb7aa25a0e20d9ae884becacbea",
+      "public_path": "assets/31b0cb7497d982f777d31810.mp4",
+      "original_attachment_anchor": "item-31b0cb7497d982f777d3"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case06_dog_collie_run/native.mp4",
+      "bytes": 8256692,
+      "sha256": "31da32a0484e88a272d50c42591e9e71fc72792740ee92221e216eed67a08f88",
+      "public_path": "assets/31da32a0484e88a272d50c42.mp4",
+      "original_attachment_anchor": "item-31da32a0484e88a272d5"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case05_person_yacht_jump/native.mp4",
+      "bytes": 274927,
+      "sha256": "330561b89631aed896053fd22a9420dc0e44588993f99737c65883c12528d841",
+      "public_path": "assets/330561b89631aed896053fd2.mp4",
+      "original_attachment_anchor": "item-330561b89631aed89605"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/bullettime/stage2/case04_person_water_jump/experimental_boundary_latent_anchor_50steps/my_validate/step_0/val_realworld_camera_actual_target_time_scene_exact_tstar_repeated81_difftimecam/gen.mp4",
+      "bytes": 416483,
+      "sha256": "33c805308add449a000e38ee82e3abae5edfc3a9e98df9436aa8e9c229f2176c",
+      "public_path": "assets/33c805308add449a000e38ee.mp4",
+      "original_attachment_anchor": "item-33c805308add449a000e"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_current/stage2/case04_person_water_jump/native.mp4",
+      "bytes": 1393112,
+      "sha256": "34139b9d5eb1287eecde4c9917253f3c2baf15f98a69ee0d7570599a3e3a1102",
+      "public_path": "assets/34139b9d5eb1287eecde4c99.mp4",
+      "original_attachment_anchor": "item-34139b9d5eb1287eecde"
+    },
+    {
+      "source": "results/wiw_multigpu_trial_20261013/raw/case11_direct_tstar_cgar_2gpu_stage2_native_frame_extract_lossless.mp4",
+      "bytes": 3394522,
+      "sha256": "37f57401b8ca4adfc2c3231af46b8eeb52d974bc6e505fe2755bd3d087df3348",
+      "public_path": "assets/37f57401b8ca4adfc2c3231a.mp4",
+      "original_attachment_anchor": "item-37f57401b8ca4adfc2c3"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/redirector/stage3/case11_man_contemporary_dance/experimental_endpoint_anchor_v2_20261014/native.mp4",
+      "bytes": 1395941,
+      "sha256": "3b6f282510d348dcc6390bebeb2c0bc5ab2f8a58bb87b9ec9f7bd4b8e7ff2623",
+      "public_path": "assets/3b6f282510d348dcc6390beb.mp4",
+      "original_attachment_anchor": "item-3b6f282510d348dcc639"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case12_woman_home_dance/native.mp4",
+      "bytes": 194974,
+      "sha256": "3db775eadbd90c801aa16ede6acf8ce0260c28d9651ce8046e3168973caa5e09",
+      "public_path": "assets/3db775eadbd90c801aa16ede.mp4",
+      "original_attachment_anchor": "item-3db775eadbd90c801aa1"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/hunyuan/stage3/case03_person_snow_jump/remaining12_actual_endpoint_v1_20261015/native.mp4",
+      "bytes": 188281,
+      "sha256": "4055e04f9ce93f58b677d7b8578161cbb25356f49f7c158995cde90c59b10626",
+      "public_path": "assets/4055e04f9ce93f58b677d7b8.mp4",
+      "original_attachment_anchor": "item-4055e04f9ce93f58b677"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case14_man_studio_dance/native/video_native.mp4",
+      "bytes": 109219,
+      "sha256": "438530c444ee460be6f201f1e112814b608298d9cb946eeec916f1452ec2fb0b",
+      "public_path": "assets/438530c444ee460be6f201f1.mp4",
+      "original_attachment_anchor": "item-438530c444ee460be6f2"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case10_cat_pounce/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 154460,
+      "sha256": "4453691ac2b2ac2840063bc034de52f9b1f76f243a434185f0d69fa77e789566",
+      "public_path": "assets/4453691ac2b2ac2840063bc0.mp4",
+      "original_attachment_anchor": "item-4453691ac2b2ac284006"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case05_person_yacht_jump/native/video_native.mp4",
+      "bytes": 151883,
+      "sha256": "4477e2805962bc13a03d5b44cda9c12efe20b3e69d50522854d7b53cbf2c79f8",
+      "public_path": "assets/4477e2805962bc13a03d5b44.mp4",
+      "original_attachment_anchor": "item-4477e2805962bc13a03d"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case06_dog_collie_run/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 426596,
+      "sha256": "44de7dfef5763ca40152fca3da1516c21342c7908c2799624f419f0f6df5d8da",
+      "public_path": "assets/44de7dfef5763ca40152fca3.mp4",
+      "original_attachment_anchor": "item-44de7dfef5763ca40152"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/trajectorycrafter/stage3/case11_man_contemporary_dance/fixedview_endpoint_anchor_v2_20261014/native.mp4",
+      "bytes": 758265,
+      "sha256": "44f7947c201183ba3862df547528de21e4ff7f621269cf4ebbc90acb1dff5f65",
+      "public_path": "assets/44f7947c201183ba3862df54.mp4",
+      "original_attachment_anchor": "item-44f7947c201183ba3862"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case01_person_modern_dance_jump/native.mp4",
+      "bytes": 81515,
+      "sha256": "48fb0a0ac412dc672646ff7364074884f0cb6875ece7a54e6ba01fb5117c07f8",
+      "public_path": "assets/48fb0a0ac412dc672646ff73.mp4",
+      "original_attachment_anchor": "item-48fb0a0ac412dc672646"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case03_person_snow_jump/native.mp4",
+      "bytes": 538793,
+      "sha256": "4967a7ba185efcb65f2c351561f90f4950e01ceec224d4d4d605700ca644260c",
+      "public_path": "assets/4967a7ba185efcb65f2c3515.mp4",
+      "original_attachment_anchor": "item-4967a7ba185efcb65f2c"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case12_woman_home_dance/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 118286,
+      "sha256": "4b570a1cda228a2789b2bc751685fc59e64dd27d6d21448eb85d50e220df820c",
+      "public_path": "assets/4b570a1cda228a2789b2bc75.mp4",
+      "original_attachment_anchor": "item-4b570a1cda228a2789b2"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case05_person_yacht_jump/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 210934,
+      "sha256": "4ecd183db20eedac7533baf6e65c9ba682b3df6859a00468287a596627ffe31c",
+      "public_path": "assets/4ecd183db20eedac7533baf6.mp4",
+      "original_attachment_anchor": "item-4ecd183db20eedac7533"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case10_cat_pounce/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 93360,
+      "sha256": "53c65324e71fe001841ae4cfdea30b3dcbd92934315bcbfd593d1d340986dd5a",
+      "public_path": "assets/53c65324e71fe001841ae4cf.mp4",
+      "original_attachment_anchor": "item-53c65324e71fe001841a"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/camclonemaster/stage3/case13_woman_rooftop_dance/redir_endpoint_latent_anchor_81f/official_output/camclone_output_video_000.mp4",
+      "bytes": 308710,
+      "sha256": "53f20e8534d5ebfe94a438c286c100fe483e93690fae492bda9c45921162886d",
+      "public_path": "assets/53f20e8534d5ebfe94a438c2.mp4",
+      "original_attachment_anchor": "item-53f20e8534d5ebfe94a4"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/raw/depthdirector/preprocess/case11_man_contemporary_dance/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "bytes": 7745941,
+      "sha256": "546f8dd59079a5b442cffeca16e54182f0c3a8a6784a7ad192dd04edd3c38434",
+      "public_path": "assets/546f8dd59079a5b442cffeca.mp4",
+      "original_attachment_anchor": "item-546f8dd59079a5b442cf"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792065191_1/output_0000.mp4",
+      "bytes": 3902597,
+      "sha256": "549c4a86d138d818d52e201b594a8a5aed5edc4eae4f512e1064f743652c387c",
+      "public_path": "assets/549c4a86d138d818d52e201b.mp4",
+      "original_attachment_anchor": "item-549c4a86d138d818d52e"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/depthdirector_stage3/preprocess/case11_man_contemporary_dance/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "bytes": 9001594,
+      "sha256": "54e5f03f7966b09780c6e3c73e38b420f45a431bfc18af27d4c0708a9b3da9b0",
+      "public_path": "assets/54e5f03f7966b09780c6e3c7.mp4",
+      "original_attachment_anchor": "item-54e5f03f7966b09780c6"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792068298_1/output_0000.mp4",
+      "bytes": 6332372,
+      "sha256": "5508105538168b6ee875ff86e8388c9055526b03afadde12debc8cc7188aafa3",
+      "public_path": "assets/5508105538168b6ee875ff86.mp4",
+      "original_attachment_anchor": "item-5508105538168b6ee875"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case14_man_studio_dance/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 10823,
+      "sha256": "55e3c132e803933328421f74d4f244f85a65026565e430f72ca595ffa70a88ea",
+      "public_path": "assets/55e3c132e803933328421f74.mp4",
+      "original_attachment_anchor": "item-55e3c132e80393332842"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/raw/dimensionx_current/stage2/case11_man_contemporary_dance/native.mp4",
+      "bytes": 241493,
+      "sha256": "561f8756f0fa9320c606cdfcb30c7d447ce8b9717766abca4dd1385ae29e7e6d",
+      "public_path": "assets/561f8756f0fa9320c606cdfc.mp4",
+      "original_attachment_anchor": "item-561f8756f0fa9320c606"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case02_person_rock_jump/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 124010,
+      "sha256": "56601edb8ac8fb05bd0368f2d1f2f2c4747274dcd69609e95c0434e328168f32",
+      "public_path": "assets/56601edb8ac8fb05bd0368f2.mp4",
+      "original_attachment_anchor": "item-56601edb8ac8fb05bd03"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/raw/trajectorycrafter/stage2/case11_man_contemporary_dance/gen.mp4",
+      "bytes": 989984,
+      "sha256": "56db778080ef83d0d8199a17f3c02aed28a25c113dc9318e37c0cc03897fe382",
+      "public_path": "assets/56db778080ef83d0d8199a17.mp4",
+      "original_attachment_anchor": "item-56db778080ef83d0d819"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case12_woman_home_dance/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 130355,
+      "sha256": "58e74325a033bcf433b26c09a20897070ca32ea4f3ef4654e2598cc53760ae5b",
+      "public_path": "assets/58e74325a033bcf433b26c09.mp4",
+      "original_attachment_anchor": "item-58e74325a033bcf433b2"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case09_dog_sunny_run/native.mp4",
+      "bytes": 2285065,
+      "sha256": "5bab50fa667319b5f1362181495cef18494a9c73ab08a0173053aa22118382fa",
+      "public_path": "assets/5bab50fa667319b5f1362181.mp4",
+      "original_attachment_anchor": "item-5bab50fa667319b5f136"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case11_man_contemporary_dance/full50_joint_native_anchor_audit_importfix_20261014/native.mp4",
+      "bytes": 189095,
+      "sha256": "5cc592c635259b1a9f5040cda0c4a3e32074751a5d7ea15de55c4113e9884f8a",
+      "public_path": "assets/5cc592c635259b1a9f5040cd.mp4",
+      "original_attachment_anchor": "item-5cc592c635259b1a9f50"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case15_woman_studio_dance/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 59245,
+      "sha256": "5d17302ee81927efbe903e0b94fec7e4f4806367f7ae40df908bd7217c55fb24",
+      "public_path": "assets/5d17302ee81927efbe903e0b.mp4",
+      "original_attachment_anchor": "item-5d17302ee81927efbe90"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/camclonemaster/stage3/case04_person_water_jump/redir_endpoint_latent_anchor_81f/official_output/camclone_output_video_000.mp4",
+      "bytes": 270823,
+      "sha256": "5e170b345319cd762f9ecc5f63ac5f62be60002e78043e21e432963b7fde476d",
+      "public_path": "assets/5e170b345319cd762f9ecc5f.mp4",
+      "original_attachment_anchor": "item-5e170b345319cd762f9e"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/stp_static_source_anchor/stage2/case04_person_water_jump/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 450036,
+      "sha256": "5edcb1d53ecbc4c4baa83b6f6e401cf77aba4c89afc0f52427f02dae70753a5b",
+      "public_path": "assets/5edcb1d53ecbc4c4baa83b6f.mp4",
+      "original_attachment_anchor": "item-5edcb1d53ecbc4c4baa8"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/hunyuan/stage3/case15_woman_studio_dance/remaining12_actual_endpoint_v1_20261015/native.mp4",
+      "bytes": 204250,
+      "sha256": "5ef398347e7a893b20f526cfba10f40f9716d62259528a4604a2938177259973",
+      "public_path": "assets/5ef398347e7a893b20f526cf.mp4",
+      "original_attachment_anchor": "item-5ef398347e7a893b20f5"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/bullettime/stage3/case04_person_water_jump/source_camera_endpoint_anchor_v2_20261014/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 115479,
+      "sha256": "65e6a4d59096a6bdbb60c8149d31737fb7097f35587fc8b8955679193718ca1c",
+      "public_path": "assets/65e6a4d59096a6bdbb60c814.mp4",
+      "original_attachment_anchor": "item-65e6a4d59096a6bdbb60"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case01_person_modern_dance_jump/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 58758,
+      "sha256": "67d24d408329e378dd563e68ceda0d4113acb7a69d69193d37d0a70d43f6948c",
+      "public_path": "assets/67d24d408329e378dd563e68.mp4",
+      "original_attachment_anchor": "item-67d24d408329e378dd56"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case15_woman_studio_dance/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 65326,
+      "sha256": "67f58c363282d65d4ba200393252a08a538d2e9b5cf700f9533286033446cad4",
+      "public_path": "assets/67f58c363282d65d4ba20039.mp4",
+      "original_attachment_anchor": "item-67f58c363282d65d4ba2"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case06_dog_collie_run/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 539975,
+      "sha256": "67f897d35ddc41267374c3f39ef6f02ae4b9745b93eaba70de61000c631746bc",
+      "public_path": "assets/67f897d35ddc41267374c3f3.mp4",
+      "original_attachment_anchor": "item-67f897d35ddc41267374"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/depthdirector_stage3/preprocess/case13_woman_rooftop_dance/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "bytes": 8900995,
+      "sha256": "69ea611254406f7f4c5ec5e78c85f98835c2627f995fb92e295a9a084243f71e",
+      "public_path": "assets/69ea611254406f7f4c5ec5e7.mp4",
+      "original_attachment_anchor": "item-69ea611254406f7f4c5e"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case08_dog_field_run/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 952421,
+      "sha256": "743f7d9ccf802c163c03b545a751f0423457e9d17a38dc2835069ea4e8fa13e9",
+      "public_path": "assets/743f7d9ccf802c163c03b545.mp4",
+      "original_attachment_anchor": "item-743f7d9ccf802c163c03"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case15_woman_studio_dance/native/video_native.mp4",
+      "bytes": 66292,
+      "sha256": "74551fe6809bad09cf991c373f47abb24236e80dafc9e053e1b10edb31403534",
+      "public_path": "assets/74551fe6809bad09cf991c37.mp4",
+      "original_attachment_anchor": "item-74551fe6809bad09cf99"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case07_dog_courtyard_run/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 92563,
+      "sha256": "7643832cb8e8ee032522d7509b18364c0f7b2414610cb1ad3497d16caae2b1b1",
+      "public_path": "assets/7643832cb8e8ee032522d750.mp4",
+      "original_attachment_anchor": "item-7643832cb8e8ee032522"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/recam/stage3/case13_woman_rooftop_dance/full50_endpoint_anchor_v2_20261014/native.mp4",
+      "bytes": 339426,
+      "sha256": "7654292657ea9472b17ece7919ecfa2178c78425f2e452bc1d90806cea8454ac",
+      "public_path": "assets/7654292657ea9472b17ece79.mp4",
+      "original_attachment_anchor": "item-7654292657ea9472b17e"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case02_person_rock_jump/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 238987,
+      "sha256": "77eefd9b7437bdc0e34ea0a54fe6f51e3c1ef13f0873740da09886a39c25a6b6",
+      "public_path": "assets/77eefd9b7437bdc0e34ea0a5.mp4",
+      "original_attachment_anchor": "item-77eefd9b7437bdc0e34e"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case08_dog_field_run/native.mp4",
+      "bytes": 10055428,
+      "sha256": "79a9d17005e0c9ba8e66310ee63afdce26c50a04ff74f10024fbb42237c098c3",
+      "public_path": "assets/79a9d17005e0c9ba8e66310e.mp4",
+      "original_attachment_anchor": "item-79a9d17005e0c9ba8e66"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792031062_1/output_0000.mp4",
+      "bytes": 3198537,
+      "sha256": "7bffb9b5e8b9d3d672435f4c81e73db18965fecc7325ae1c00963004e8865247",
+      "public_path": "assets/7bffb9b5e8b9d3d672435f4c.mp4",
+      "original_attachment_anchor": "item-7bffb9b5e8b9d3d67243"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/raw/gen3c_prompt/stage2/case11_man_contemporary_dance/native.mp4",
+      "bytes": 278686,
+      "sha256": "7c3be008d60e0c2281da5debe23674e237b04e69511494db078e4daf972fa6df",
+      "public_path": "assets/7c3be008d60e0c2281da5deb.mp4",
+      "original_attachment_anchor": "item-7c3be008d60e0c2281da"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case12_woman_home_dance/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 172436,
+      "sha256": "7dcb4aa2ab58ece246ec9325adb51dcea0720fb95ff0b6f97e37617bc1bc4fcb",
+      "public_path": "assets/7dcb4aa2ab58ece246ec9325.mp4",
+      "original_attachment_anchor": "item-7dcb4aa2ab58ece246ec"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case07_dog_courtyard_run/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 152572,
+      "sha256": "7e9606886137e85133856b6e30e01253b01c6fa496f90bb82558f7a980f318c8",
+      "public_path": "assets/7e9606886137e85133856b6e.mp4",
+      "original_attachment_anchor": "item-7e9606886137e8513385"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case01_person_modern_dance_jump/native.mp4",
+      "bytes": 1178307,
+      "sha256": "7edc90807f3c1ba1bf2d65eb56b37b045d9424937da32bb27e2018f1494fb474",
+      "public_path": "assets/7edc90807f3c1ba1bf2d65eb.mp4",
+      "original_attachment_anchor": "item-7edc90807f3c1ba1bf2d"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_joint_endpoint/stage3/case04_person_water_jump/video_latent_prior_anchor_v1_20261014/native.mp4",
+      "bytes": 302138,
+      "sha256": "80a0179c0817de4662515b38381de51457e300e63d3fb1cab0ccbb4386cf19b6",
+      "public_path": "assets/80a0179c0817de4662515b38.mp4",
+      "original_attachment_anchor": "item-80a0179c0817de466251"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/gen3c_joint_endpoint/stage3/case04_person_water_jump/cache4d_edm_anchor_v1_20261014/native.mp4",
+      "bytes": 1393824,
+      "sha256": "817d1c8a65ea206a48b116df469669308ec5968da13aecebd5d9b8c97d0c5c7b",
+      "public_path": "assets/817d1c8a65ea206a48b116df.mp4",
+      "original_attachment_anchor": "item-817d1c8a65ea206a48b1"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/raw/redirector/stage2/case11_man_contemporary_dance/native.mp4",
+      "bytes": 2755841,
+      "sha256": "82d36a898d07c154b00b65522273dc49a8840fa3445b660b0cac24c186e517b7",
+      "public_path": "assets/82d36a898d07c154b00b6552.mp4",
+      "original_attachment_anchor": "item-82d36a898d07c154b00b"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case09_dog_sunny_run/native.mp4",
+      "bytes": 398018,
+      "sha256": "84f630238211c61f39b030d468c12d2b3570545845470e796bdd70fcdc0bb1b1",
+      "public_path": "assets/84f630238211c61f39b030d4.mp4",
+      "original_attachment_anchor": "item-84f630238211c61f39b0"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792076591_1/output_0000.mp4",
+      "bytes": 3424268,
+      "sha256": "8616abe94fc63e20bbe1cab7d6343a139e88a7cf0854b53ce6d0dc2c8c87e737",
+      "public_path": "assets/8616abe94fc63e20bbe1cab7.mp4",
+      "original_attachment_anchor": "item-8616abe94fc63e20bbe1"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/stp_static_source_anchor/stage2/case11_man_contemporary_dance/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 96776,
+      "sha256": "8627c5625a98ce1e553020f7055b65a3012060eee8f460662dd225ec9d992b29",
+      "public_path": "assets/8627c5625a98ce1e553020f7.mp4",
+      "original_attachment_anchor": "item-8627c5625a98ce1e5530"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/hunyuan/stage3/case12_woman_home_dance/remaining12_actual_endpoint_v1_20261015/native.mp4",
+      "bytes": 325327,
+      "sha256": "8649ee500e5b9f8fd737a2b516275b4d9e0d9570a2d25ae130743b92d0d6fc8d",
+      "public_path": "assets/8649ee500e5b9f8fd737a2b5.mp4",
+      "original_attachment_anchor": "item-8649ee500e5b9f8fd737"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case13_woman_rooftop_dance/redir_endpoint_latent_anchor_81f/native_pose.mp4",
+      "bytes": 222968,
+      "sha256": "8794aada3b87a9aeaf24f2fedc4a9a87d8f8371b15b0f7924c7716f6ed12637d",
+      "public_path": "assets/8794aada3b87a9aeaf24f2fe.mp4",
+      "original_attachment_anchor": "item-8794aada3b87a9aeaf24"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case01_person_modern_dance_jump/native/video_native.mp4",
+      "bytes": 66262,
+      "sha256": "879ba77b72456a28f508f0f344be5151e5e9abf190c38a8aaaf58c47ed5a9138",
+      "public_path": "assets/879ba77b72456a28f508f0f3.mp4",
+      "original_attachment_anchor": "item-879ba77b72456a28f508"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792079758_1/output_0000.mp4",
+      "bytes": 3286857,
+      "sha256": "88ee924f6d2d162c0123901abfbba7b4c74da34652a02648bd9bacef4ccda956",
+      "public_path": "assets/88ee924f6d2d162c0123901a.mp4",
+      "original_attachment_anchor": "item-88ee924f6d2d162c0123"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/hunyuan/stage3/case09_dog_sunny_run/remaining12_actual_endpoint_v1_20261015/native.mp4",
+      "bytes": 472896,
+      "sha256": "8cacd6c1dd0c913d697061372ce5ece18e92e34c740c4c27ea46527e691bb4ea",
+      "public_path": "assets/8cacd6c1dd0c913d69706137.mp4",
+      "original_attachment_anchor": "item-8cacd6c1dd0c913d6970"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case03_person_snow_jump/native.mp4",
+      "bytes": 107003,
+      "sha256": "8e4cae518f291912d85a33105d88d4d83a6d2206c3935cd5d012abbd41e06d95",
+      "public_path": "assets/8e4cae518f291912d85a3310.mp4",
+      "original_attachment_anchor": "item-8e4cae518f291912d85a"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case03_person_snow_jump/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 173181,
+      "sha256": "914ce1f34476dfcc98a16754e79cf9478cecf137653bf47d1d984464f289e8e2",
+      "public_path": "assets/914ce1f34476dfcc98a16754.mp4",
+      "original_attachment_anchor": "item-914ce1f34476dfcc98a1"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case05_person_yacht_jump/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 201918,
+      "sha256": "91651bf1ef17f46f30c42f214c65d258888203d070dfbbec5ab2d5e37fb62d3e",
+      "public_path": "assets/91651bf1ef17f46f30c42f21.mp4",
+      "original_attachment_anchor": "item-91651bf1ef17f46f30c4"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case10_cat_pounce/native.mp4",
+      "bytes": 2747457,
+      "sha256": "92bac65c8410e211ec5007b9ed12c4a5df2ac3c3bed7667fc9f4b8692bbf225e",
+      "public_path": "assets/92bac65c8410e211ec5007b9.mp4",
+      "original_attachment_anchor": "item-92bac65c8410e211ec50"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792086273_1/output_0000.mp4",
+      "bytes": 2808160,
+      "sha256": "9585257995420223abbd2ea9562053a73d206aa44db61f4b5ef5c7b407e6dbfd",
+      "public_path": "assets/9585257995420223abbd2ea9.mp4",
+      "original_attachment_anchor": "item-9585257995420223abbd"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case08_dog_field_run/native.mp4",
+      "bytes": 777932,
+      "sha256": "958cb5197352015a9d2197a5991434032e28e6b3972dc4551ece7dd315ebf219",
+      "public_path": "assets/958cb5197352015a9d2197a5.mp4",
+      "original_attachment_anchor": "item-958cb5197352015a9d21"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/vista4d_trial/case11_man_contemporary_dance/vista4d_384p_native_usp02/video_seed=42.mp4",
+      "bytes": 3439564,
+      "sha256": "95d760c5979348b7e5d07bd45e49eba892580b22634780298acc16b2ef6dd7a3",
+      "public_path": "assets/95d760c5979348b7e5d07bd4.mp4",
+      "original_attachment_anchor": "item-95d760c5979348b7e5d0"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/redirector/stage2/case04_person_water_jump/native.mp4",
+      "bytes": 6104705,
+      "sha256": "96f0817ead648b75c0aae59b83ea943673c75ee3ada2b13377b8dd2fe95ad3e9",
+      "public_path": "assets/96f0817ead648b75c0aae59b.mp4",
+      "original_attachment_anchor": "item-96f0817ead648b75c0aa"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/spacetimepilot/stage3/case13_woman_rooftop_dance/experimental_boundary_latent_anchor_20steps/case13_woman_rooftop_dance_timeforward_10.mp4",
+      "bytes": 276256,
+      "sha256": "98053680cf714040b126f55ac3a4b3cbf5b1c076a1eae5dcbada92c9f142fd1f",
+      "public_path": "assets/98053680cf714040b126f55a.mp4",
+      "original_attachment_anchor": "item-98053680cf714040b126"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/redirector/stage3/case13_woman_rooftop_dance/experimental_endpoint_anchor_v2_20261014/native.mp4",
+      "bytes": 1907718,
+      "sha256": "9a0935f74e76ff8cd56a525df1ebd23344f6de01c24d0339a868b2a76b952357",
+      "public_path": "assets/9a0935f74e76ff8cd56a525d.mp4",
+      "original_attachment_anchor": "item-9a0935f74e76ff8cd56a"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/bullettime/stage3/case11_man_contemporary_dance/source_camera_endpoint_anchor_v2_20261014/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 130281,
+      "sha256": "9a17b3d1a05062fdfa7bf48a81e509caa529bbb0d8199528c722b7d1af47a7a4",
+      "public_path": "assets/9a17b3d1a05062fdfa7bf48a.mp4",
+      "original_attachment_anchor": "item-9a17b3d1a05062fdfa7b"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case04_person_water_jump/full50_joint_native_anchor_audit_importfix_20261014/native.mp4",
+      "bytes": 352718,
+      "sha256": "9a818824a224dceaaab8a0b1d4fdb4010aa711570a3b83a33b78d7b97b85fa4d",
+      "public_path": "assets/9a818824a224dceaaab8a0b1.mp4",
+      "original_attachment_anchor": "item-9a818824a224dceaaab8"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/bullettime/stage2/case13_woman_rooftop_dance/experimental_boundary_latent_anchor_50steps/my_validate/step_0/val_realworld_camera_actual_target_time_scene_exact_tstar_repeated81_difftimecam/gen.mp4",
+      "bytes": 225397,
+      "sha256": "9ac5a99f2799ab0235a9a86612c68a480963e3cd591f36f6e455fd7467d7c9b9",
+      "public_path": "assets/9ac5a99f2799ab0235a9a866.mp4",
+      "original_attachment_anchor": "item-9ac5a99f2799ab0235a9"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case08_dog_field_run/native.mp4",
+      "bytes": 1813568,
+      "sha256": "9b12be2d24c44f4bf31e69b0f8d572c731df75167044f53cd466befc8855ef6d",
+      "public_path": "assets/9b12be2d24c44f4bf31e69b0.mp4",
+      "original_attachment_anchor": "item-9b12be2d24c44f4bf31e"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case10_cat_pounce/native/video_native.mp4",
+      "bytes": 88471,
+      "sha256": "9eb22be1ea5cc6a487775fa90e506df5311d5df56012c2bf9ec8801557e546d8",
+      "public_path": "assets/9eb22be1ea5cc6a487775fa9.mp4",
+      "original_attachment_anchor": "item-9eb22be1ea5cc6a48777"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/trimotion/stage3/case04_person_water_jump/redir_endpoint_latent_anchor_81f/native_pose.mp4",
+      "bytes": 213984,
+      "sha256": "9ef9a2861a8c6da9843dcbbf56bb718c553c8d8149730edeef41a87ad9157f64",
+      "public_path": "assets/9ef9a2861a8c6da9843dcbbf.mp4",
+      "original_attachment_anchor": "item-9ef9a2861a8c6da9843d"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case02_person_rock_jump/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 776901,
+      "sha256": "9fe0669bbe1ab48df556d51af234feb1fed3ef345a6a926468984790049ea0ea",
+      "public_path": "assets/9fe0669bbe1ab48df556d51a.mp4",
+      "original_attachment_anchor": "item-9fe0669bbe1ab48df556"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case07_dog_courtyard_run/native/video_native.mp4",
+      "bytes": 138723,
+      "sha256": "a0501de46622e548d84952a92e2538a6349d2ffa42901c146da66f59ca0b1c81",
+      "public_path": "assets/a0501de46622e548d84952a9.mp4",
+      "original_attachment_anchor": "item-a0501de46622e548d849"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case01_person_modern_dance_jump/native.mp4",
+      "bytes": 302483,
+      "sha256": "a11be8f410f80ff138d607fde1fb3dc3555ec45c43fbd47ba98bc0aecbc99c1b",
+      "public_path": "assets/a11be8f410f80ff138d607fd.mp4",
+      "original_attachment_anchor": "item-a11be8f410f80ff138d6"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/gen3c_joint_endpoint/stage3/case13_woman_rooftop_dance/cache4d_edm_anchor_v1_20261014/native.mp4",
+      "bytes": 1248859,
+      "sha256": "a150b530d0da6cdb907eb82d5bd2f7ca7ba42d2aa325d3361db95fbc87e9b74e",
+      "public_path": "assets/a150b530d0da6cdb907eb82d.mp4",
+      "original_attachment_anchor": "item-a150b530d0da6cdb907e"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case14_man_studio_dance/native.mp4",
+      "bytes": 309468,
+      "sha256": "a18e0bc8655b5023185a3e405ae772dfc4590fee875649adc533d8b96fd89816",
+      "public_path": "assets/a18e0bc8655b5023185a3e40.mp4",
+      "original_attachment_anchor": "item-a18e0bc8655b5023185a"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case01_person_modern_dance_jump/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 161019,
+      "sha256": "a2996f4f43380377aebcc696de19b62553d3812ba290b54bf0bac04b525d0a5d",
+      "public_path": "assets/a2996f4f43380377aebcc696.mp4",
+      "original_attachment_anchor": "item-a2996f4f43380377aebc"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/recam/stage3/case11_man_contemporary_dance/full50_endpoint_anchor_v2_20261014/native.mp4",
+      "bytes": 211716,
+      "sha256": "a32905decc48287429a63f3ea9d8d77e6b5dba6602546b90d60b497b131aeafc",
+      "public_path": "assets/a32905decc48287429a63f3e.mp4",
+      "original_attachment_anchor": "item-a32905decc48287429a6"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/recordings/1791944378_1/output_0000.mp4",
+      "bytes": 3874294,
+      "sha256": "a374e6c9b06695af2b6673cfebc2310cae4880c484f03788d6ccd4ea53c0b9d0",
+      "public_path": "assets/a374e6c9b06695af2b6673cf.mp4",
+      "original_attachment_anchor": "item-a374e6c9b06695af2b66"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case07_dog_courtyard_run/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 76723,
+      "sha256": "a58522e8785cede647c703b882a8c6685f0fabdb657ef3bad3c4e58906679cd8",
+      "public_path": "assets/a58522e8785cede647c703b8.mp4",
+      "original_attachment_anchor": "item-a58522e8785cede647c7"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/hunyuan/stage3/case11_man_contemporary_dance/scheduler_factory_anchor_v2_20261014/native.mp4",
+      "bytes": 272836,
+      "sha256": "a765c5c213b5ea779b2bdec3a9e8545f6201516dc72d8603bd5f3670d592613a",
+      "public_path": "assets/a765c5c213b5ea779b2bdec3.mp4",
+      "original_attachment_anchor": "item-a765c5c213b5ea779b2b"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/spacetimepilot/stage3/case04_person_water_jump/experimental_boundary_latent_anchor_20steps/case04_person_water_jump_timeforward_10.mp4",
+      "bytes": 425465,
+      "sha256": "a92b164fe1842ed5686d37ce53200d58b3b2e7e0082e9380f149ab980dcb4b8e",
+      "public_path": "assets/a92b164fe1842ed5686d37ce.mp4",
+      "original_attachment_anchor": "item-a92b164fe1842ed5686d"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/vista4d/stage3/case13_woman_rooftop_dance/experimental_boundary_latent_anchor_20steps_usp04/video_seed=42.mp4",
+      "bytes": 3297665,
+      "sha256": "a99dd020a5608818ee6ecef428ca16e8952657bae01c0b5af413a39ecd532995",
+      "public_path": "assets/a99dd020a5608818ee6ecef4.mp4",
+      "original_attachment_anchor": "item-a99dd020a5608818ee6e"
+    },
+    {
+      "source": "results/wiw_multigpu_trial_20261013/raw/case04_gpu_kv_4gpu_stage2_native_frame_extract_lossless.mp4",
+      "bytes": 7940143,
+      "sha256": "aac18752d23cd2d9a8620dd6cfc290e66cb78445c5397874b1c53a62d38dcaf5",
+      "public_path": "assets/aac18752d23cd2d9a8620dd6.mp4",
+      "original_attachment_anchor": "item-aac18752d23cd2d9a862"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case10_cat_pounce/native.mp4",
+      "bytes": 64189,
+      "sha256": "ab2a371aa85cf72f616a58c497ba84b3d8dfdab1b2a90bf08d3965ec3413c37f",
+      "public_path": "assets/ab2a371aa85cf72f616a58c4.mp4",
+      "original_attachment_anchor": "item-ab2a371aa85cf72f616a"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_joint_endpoint/stage3/case11_man_contemporary_dance/video_latent_prior_anchor_v1_20261014/native.mp4",
+      "bytes": 167335,
+      "sha256": "abdaf818c114e3415f98d008a66cecc4262bb4d99e7f579128b9de7daba183cc",
+      "public_path": "assets/abdaf818c114e3415f98d008.mp4",
+      "original_attachment_anchor": "item-abdaf818c114e3415f98"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case08_dog_field_run/native/video_native.mp4",
+      "bytes": 1060407,
+      "sha256": "abe09affdc2e33b9cce5b0ee32771590d6d22d200eda10b0cbed691a6faf786e",
+      "public_path": "assets/abe09affdc2e33b9cce5b0ee.mp4",
+      "original_attachment_anchor": "item-abe09affdc2e33b9cce5"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/hunyuan/stage3/case08_dog_field_run/remaining12_actual_endpoint_v1_20261015/native.mp4",
+      "bytes": 1804064,
+      "sha256": "ace48fa2194878aa79ff2f38ee6651572f433ff31b3daae99a376b08c8bf9210",
+      "public_path": "assets/ace48fa2194878aa79ff2f38.mp4",
+      "original_attachment_anchor": "item-ace48fa2194878aa79ff"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/omnicamera/stage3/case13_woman_rooftop_dance/full50_joint_native_anchor_audit_importfix_20261014/native.mp4",
+      "bytes": 458081,
+      "sha256": "ad6d83c209f50a3e3269cc932343b133249248cf1d2637c5d4f6b5d13fb0df36",
+      "public_path": "assets/ad6d83c209f50a3e3269cc93.mp4",
+      "original_attachment_anchor": "item-ad6d83c209f50a3e3269"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case12_woman_home_dance/native.mp4",
+      "bytes": 944640,
+      "sha256": "aedd7a7ebc961ba27cb0f67566b5bd462a1aa834ae5b5526e8d44f1bfe170c5d",
+      "public_path": "assets/aedd7a7ebc961ba27cb0f675.mp4",
+      "original_attachment_anchor": "item-aedd7a7ebc961ba27cb0"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case14_man_studio_dance/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 71943,
+      "sha256": "aee9e4d4aaa780175f2da8e59e6ad42e74cc7b9890c95cdc4b3522de09740689",
+      "public_path": "assets/aee9e4d4aaa780175f2da8e5.mp4",
+      "original_attachment_anchor": "item-aee9e4d4aaa780175f2d"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case10_cat_pounce/native.mp4",
+      "bytes": 248926,
+      "sha256": "af82f93615aa0fe42d4a080135c34ea749e073a42373a3e2c22d510375959c74",
+      "public_path": "assets/af82f93615aa0fe42d4a0801.mp4",
+      "original_attachment_anchor": "item-af82f93615aa0fe42d4a"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case08_dog_field_run/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 353406,
+      "sha256": "af870be8d1ad278dce52943ec6b90c7e06c9ef62cd317e6d17f4d1f57fdb893d",
+      "public_path": "assets/af870be8d1ad278dce52943e.mp4",
+      "original_attachment_anchor": "item-af870be8d1ad278dce52"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/raw/redirector/stage2/case13_woman_rooftop_dance/native.mp4",
+      "bytes": 3623840,
+      "sha256": "b4eca0bf8bcac623960ba09de71fc13f24b00635f87568c744a9731f143897e8",
+      "public_path": "assets/b4eca0bf8bcac623960ba09d.mp4",
+      "original_attachment_anchor": "item-b4eca0bf8bcac623960b"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/vista4d/stage3/case04_person_water_jump/experimental_boundary_latent_anchor_20steps_usp04/video_seed=42.mp4",
+      "bytes": 3922142,
+      "sha256": "b559928e336b7690fec5a3a7a78a35aae8efb02f65fdab2c38f83660f7bb2827",
+      "public_path": "assets/b559928e336b7690fec5a3a7.mp4",
+      "original_attachment_anchor": "item-b559928e336b7690fec5"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case03_person_snow_jump/native.mp4",
+      "bytes": 2382625,
+      "sha256": "b8e5890d94dfb55b654a81cf0ce8c436a4a419b6d74d4085ba9b6339d6a20fe2",
+      "public_path": "assets/b8e5890d94dfb55b654a81cf.mp4",
+      "original_attachment_anchor": "item-b8e5890d94dfb55b654a"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case08_dog_field_run/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 351116,
+      "sha256": "b8f28ea5a4d7da31ab0de59786d31b5182a99fe274689647d5730a430acce630",
+      "public_path": "assets/b8f28ea5a4d7da31ab0de597.mp4",
+      "original_attachment_anchor": "item-b8f28ea5a4d7da31ab0d"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case09_dog_sunny_run/native.mp4",
+      "bytes": 138971,
+      "sha256": "bc101dc7cb1893f65e3e9872aea01e4372b0851996add59f9aabdc822574e77b",
+      "public_path": "assets/bc101dc7cb1893f65e3e9872.mp4",
+      "original_attachment_anchor": "item-bc101dc7cb1893f65e3e"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case05_person_yacht_jump/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 65140,
+      "sha256": "bc8fef6ddd630569433afdbb33761b7bef15caf288a11ac60198289bc0429a6e",
+      "public_path": "assets/bc8fef6ddd630569433afdbb.mp4",
+      "original_attachment_anchor": "item-bc8fef6ddd630569433a"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case12_woman_home_dance/native.mp4",
+      "bytes": 81796,
+      "sha256": "bf7f20672b58360e33c97ad4f593a82fbc762e76455684e1a4719aca4973ef9a",
+      "public_path": "assets/bf7f20672b58360e33c97ad4.mp4",
+      "original_attachment_anchor": "item-bf7f20672b58360e33c9"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case06_dog_collie_run/native.mp4",
+      "bytes": 1408639,
+      "sha256": "c0341ec73d047a20ccade1623787a8d0efd414c5acbf0e07369b00804d64b146",
+      "public_path": "assets/c0341ec73d047a20ccade162.mp4",
+      "original_attachment_anchor": "item-c0341ec73d047a20ccad"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case02_person_rock_jump/native/video_native.mp4",
+      "bytes": 830758,
+      "sha256": "c0350c9ea44517d22d2db978b3c4728a835814c95c65df48370de355f983a9ef",
+      "public_path": "assets/c0350c9ea44517d22d2db978.mp4",
+      "original_attachment_anchor": "item-c0350c9ea44517d22d2d"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792073453_1/output_0000.mp4",
+      "bytes": 6208283,
+      "sha256": "c110244704a00c4547f815bcb1354d2fe0b877a03dacc18cca65bd60e63a0f00",
+      "public_path": "assets/c110244704a00c4547f815bc.mp4",
+      "original_attachment_anchor": "item-c110244704a00c4547f8"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case07_dog_courtyard_run/native.mp4",
+      "bytes": 146680,
+      "sha256": "c1ae02267615c31ee60984f3cba5c5b002c18a5e9baffb5b711c0056a78c019e",
+      "public_path": "assets/c1ae02267615c31ee60984f3.mp4",
+      "original_attachment_anchor": "item-c1ae02267615c31ee609"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/dimensionx_joint_endpoint/stage3/case13_woman_rooftop_dance/video_latent_prior_anchor_v1_20261014/native.mp4",
+      "bytes": 323006,
+      "sha256": "c1c8257634f3589b1afc4ef25250ee65e5c1a0af7191c3292715d65bfb59ba1c",
+      "public_path": "assets/c1c8257634f3589b1afc4ef2.mp4",
+      "original_attachment_anchor": "item-c1c8257634f3589b1afc"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/vista4d/stage2/case04_person_water_jump/vista4d_384p_native_usp04_smallvae/video_seed=42.mp4",
+      "bytes": 5924954,
+      "sha256": "c33b46a369ad4dac8b5d448aea065faee831267da3b6d6ea836c9fa2253e7aca",
+      "public_path": "assets/c33b46a369ad4dac8b5d448a.mp4",
+      "original_attachment_anchor": "item-c33b46a369ad4dac8b5d"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/camclonemaster/stage3/case11_man_contemporary_dance/redir_endpoint_latent_anchor_81f/official_output/camclone_output_video_000.mp4",
+      "bytes": 178707,
+      "sha256": "c5c5a0842adedfb8e031e7cb93dc9741bdd1ce8053303e5ba47006af6e3e2b6d",
+      "public_path": "assets/c5c5a0842adedfb8e031e7cb.mp4",
+      "original_attachment_anchor": "item-c5c5a0842adedfb8e031"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case01_person_modern_dance_jump/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 115112,
+      "sha256": "c676809e0a16d5c243fa74c8caa9149195d608de5f56dfc6ebb386d2456529cc",
+      "public_path": "assets/c676809e0a16d5c243fa74c8.mp4",
+      "original_attachment_anchor": "item-c676809e0a16d5c243fa"
+    },
+    {
+      "source": "results/expert_execution_v1_20261012/raw/recam/stage2/case13_woman_rooftop_dance/native.mp4",
+      "bytes": 220491,
+      "sha256": "c7307442035555f5a57c18a2f1771df1a4c35016db7b84f5069f7303e2aa33a7",
+      "public_path": "assets/c7307442035555f5a57c18a2.mp4",
+      "original_attachment_anchor": "item-c7307442035555f5a57c"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case09_dog_sunny_run/native/video_native.mp4",
+      "bytes": 166725,
+      "sha256": "c7b7c96b7cfc226cf2e0c2f876454ca601460d98a1ef781a6edf5c4b1cd06861",
+      "public_path": "assets/c7b7c96b7cfc226cf2e0c2f8.mp4",
+      "original_attachment_anchor": "item-c7b7c96b7cfc226cf2e0"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/hunyuan/stage3/case01_person_modern_dance_jump/remaining12_actual_endpoint_v1_20261015/native.mp4",
+      "bytes": 355891,
+      "sha256": "c84f4923679650b30a56843c67d634409d5a8b3ee1b2a46b78a4fefab8840635",
+      "public_path": "assets/c84f4923679650b30a56843c.mp4",
+      "original_attachment_anchor": "item-c84f4923679650b30a56"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case12_woman_home_dance/native/video_native.mp4",
+      "bytes": 92314,
+      "sha256": "cb6d0d960714f0b78c5543783f519ff6b1f9285320c28d1e6c2cd0521c5bb716",
+      "public_path": "assets/cb6d0d960714f0b78c554378.mp4",
+      "original_attachment_anchor": "item-cb6d0d960714f0b78c55"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/recordings/1791944343_1/output_0000.mp4",
+      "bytes": 3062959,
+      "sha256": "cba703c78a8de3621cf4959bebfb8f7899033137f678e69c7babdcdbeed5b6d4",
+      "public_path": "assets/cba703c78a8de3621cf4959b.mp4",
+      "original_attachment_anchor": "item-cba703c78a8de3621cf4"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case11_man_contemporary_dance/case11_man_contemporary_dance_anchor_v2.mp4",
+      "bytes": 159103,
+      "sha256": "cca9d6aeed63db6ff327cbde214fa8847a4c9f0c5e9d9d8d31e11ca81e2c1027",
+      "public_path": "assets/cca9d6aeed63db6ff327cbde.mp4",
+      "original_attachment_anchor": "item-cca9d6aeed63db6ff327"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case15_woman_studio_dance/native.mp4",
+      "bytes": 44111,
+      "sha256": "ccbf9a6a958d3fa80c4c60fcebc4cec5de3d1d67c44b06d35c298277465f6ec8",
+      "public_path": "assets/ccbf9a6a958d3fa80c4c60fc.mp4",
+      "original_attachment_anchor": "item-ccbf9a6a958d3fa80c4c"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792061923_1/output_0000.mp4",
+      "bytes": 2737096,
+      "sha256": "cde207f45aec973bd17f7c01c85d4cda3c4fab6d5a0abe75a780fc4fb51a62c3",
+      "public_path": "assets/cde207f45aec973bd17f7c01.mp4",
+      "original_attachment_anchor": "item-cde207f45aec973bd17f"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/hunyuan/stage3/case04_person_water_jump/scheduler_factory_anchor_v2_20261014/native.mp4",
+      "bytes": 563372,
+      "sha256": "ce16375d69aa54418e70308fc0d4e0cf6e7f170b8df3dcac7371a9b99af44b9e",
+      "public_path": "assets/ce16375d69aa54418e70308f.mp4",
+      "original_attachment_anchor": "item-ce16375d69aa54418e70"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/stp_static_source_anchor/stage2/case15_woman_studio_dance/exact_tstar_repeated81_timefreeze_mid_10.mp4",
+      "bytes": 48504,
+      "sha256": "cf2de52e43d83988e56422317ec253ba276cdaf04bd8478b8278ff2a82dad8de",
+      "public_path": "assets/cf2de52e43d83988e5642231.mp4",
+      "original_attachment_anchor": "item-cf2de52e43d83988e564"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/vista4d_trial/case13_woman_rooftop_dance/vista4d_384p_native_usp02/video_seed=42.mp4",
+      "bytes": 4609308,
+      "sha256": "cf2fa372c93858868c2b8c342101b1a3413399bba388447f2f668aee750afc93",
+      "public_path": "assets/cf2fa372c93858868c2b8c34.mp4",
+      "original_attachment_anchor": "item-cf2fa372c93858868c2b"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case14_man_studio_dance/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 86578,
+      "sha256": "cfe0f8dacfe5bba24ae13cc590c5faf4f87574d24aa5a650fecb28787ee25524",
+      "public_path": "assets/cfe0f8dacfe5bba24ae13cc5.mp4",
+      "original_attachment_anchor": "item-cfe0f8dacfe5bba24ae1"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/hunyuan/stage3/case13_woman_rooftop_dance/scheduler_factory_anchor_v2_20261014/native.mp4",
+      "bytes": 625234,
+      "sha256": "d251fd28ed1d9e0258f48ae1bc1378b371b60ae0de40dfecf9efa86b3d59e210",
+      "public_path": "assets/d251fd28ed1d9e0258f48ae1.mp4",
+      "original_attachment_anchor": "item-d251fd28ed1d9e0258f4"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case05_person_yacht_jump/native.mp4",
+      "bytes": 1938527,
+      "sha256": "d612265ed56d80be4dea131c6d1ca3fbf1b230234aaca3f22e0d160e67396934",
+      "public_path": "assets/d612265ed56d80be4dea131c.mp4",
+      "original_attachment_anchor": "item-d612265ed56d80be4dea"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792084372_1/output_0000.mp4",
+      "bytes": 328869,
+      "sha256": "d6da5d6ca6d006a6afa158b61dd16c0daf9624ede8b71dca07742d1c796c72d9",
+      "public_path": "assets/d6da5d6ca6d006a6afa158b6.mp4",
+      "original_attachment_anchor": "item-d6da5d6ca6d006a6afa1"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case04_person_water_jump/case04_person_water_jump_anchor_v2.mp4",
+      "bytes": 393481,
+      "sha256": "d7d78970e89542402c45cc86cf872947e45f2e4de6333cff7cdf572c257ceb94",
+      "public_path": "assets/d7d78970e89542402c45cc86.mp4",
+      "original_attachment_anchor": "item-d7d78970e89542402c45"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/raw/dimensionx_current/stage2/case13_woman_rooftop_dance/native.mp4",
+      "bytes": 677339,
+      "sha256": "d93e87cb15b10d8173a767093aa1067029d50a43e969192ad4240d89c75206a0",
+      "public_path": "assets/d93e87cb15b10d8173a76709.mp4",
+      "original_attachment_anchor": "item-d93e87cb15b10d8173a7"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/camclonemaster/stage3/case09_dog_sunny_run/remaining12_actual_endpoint_v1_20261015/official_output/camclone_output_video_000.mp4",
+      "bytes": 225149,
+      "sha256": "dc15325774506d84533c0736bdd7095d91c15ae3ec1bb7adac485e205be9d694",
+      "public_path": "assets/dc15325774506d84533c0736.mp4",
+      "original_attachment_anchor": "item-dc15325774506d84533c"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/joyai_endpoint_anchor_exp/recordings/1792070767_1/output_0000.mp4",
+      "bytes": 2224802,
+      "sha256": "dc6436c101c300ac098ba4bba35b235f7926cee2f52c5d125b12c020efbde9e3",
+      "public_path": "assets/dc6436c101c300ac098ba4bb.mp4",
+      "original_attachment_anchor": "item-dc6436c101c300ac098b"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/world/stage2/case06_dog_collie_run/native/video_native.mp4",
+      "bytes": 597933,
+      "sha256": "de919ccfb005ff22d06eb2b8b25b42ee4fb32df3b847b89b80c07d714872254b",
+      "public_path": "assets/de919ccfb005ff22d06eb2b8.mp4",
+      "original_attachment_anchor": "item-de919ccfb005ff22d06e"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/bullettime/stage3/case09_dog_sunny_run/remaining12_actual_endpoint_v1_20261015/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 213653,
+      "sha256": "e08f2ba9cbb80be1fa928f7f792285beccdefe6d329144504283a92fc435a7b1",
+      "public_path": "assets/e08f2ba9cbb80be1fa928f7f.mp4",
+      "original_attachment_anchor": "item-e08f2ba9cbb80be1fa92"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/wan/stage3/case11_man_contemporary_dance/actual_endpoint_latent_anchor/native.mp4",
+      "bytes": 3974020,
+      "sha256": "e0a97df1138494fdcc020d7f29f8219bdf382f5c4d56aed85b393c6745a3c05f",
+      "public_path": "assets/e0a97df1138494fdcc020d7f.mp4",
+      "original_attachment_anchor": "item-e0a97df1138494fdcc02"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/bullettime/stage2/case11_man_contemporary_dance/experimental_boundary_latent_anchor_50steps/my_validate/step_0/val_realworld_camera_actual_target_time_scene_exact_tstar_repeated81_difftimecam/gen.mp4",
+      "bytes": 131133,
+      "sha256": "e2f83163169f930e65098c8f79e8f45a40acfd0636ab0519dd15e32624d5b74f",
+      "public_path": "assets/e2f83163169f930e65098c8f.mp4",
+      "original_attachment_anchor": "item-e2f83163169f930e6509"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/vista4d/stage3/case11_man_contemporary_dance/experimental_boundary_latent_anchor_20steps_usp04/video_seed=42.mp4",
+      "bytes": 2610053,
+      "sha256": "e3f0be00e9b9bd6bda402f53f7075d62c1f140351ece4ba1826f2eb133a88b30",
+      "public_path": "assets/e3f0be00e9b9bd6bda402f53.mp4",
+      "original_attachment_anchor": "item-e3f0be00e9b9bd6bda40"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/wan/stage3/case04_person_water_jump/actual_endpoint_latent_anchor/native.mp4",
+      "bytes": 7968050,
+      "sha256": "e6b83f38abfef9f5efd1185b751b618615d3b973a396e76578f353849756761f",
+      "public_path": "assets/e6b83f38abfef9f5efd1185b.mp4",
+      "original_attachment_anchor": "item-e6b83f38abfef9f5efd1"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case07_dog_courtyard_run/native.mp4",
+      "bytes": 2568130,
+      "sha256": "e70613d99a54a9309819b8f1ddecc328a4419fb84aa07ca862d653de78d23083",
+      "public_path": "assets/e70613d99a54a9309819b8f1.mp4",
+      "original_attachment_anchor": "item-e70613d99a54a9309819"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/bullettime/stage3/case13_woman_rooftop_dance/source_camera_endpoint_anchor_v2_20261014/my_validate/step_0/val_realworld_camera_constant_relative_30deg_actual_target_time_scene_actual_endpoint_plus_sourcepost_81frames_difftimecam/gen.mp4",
+      "bytes": 212731,
+      "sha256": "e7e0f5165d0b31e4d240423087c09180d0d6bb2bbc519246f8bd9cbac33887b1",
+      "public_path": "assets/e7e0f5165d0b31e4d2404230.mp4",
+      "original_attachment_anchor": "item-e7e0f5165d0b31e4d240"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/gen3c_joint_endpoint/stage3/case11_man_contemporary_dance/cache4d_edm_anchor_v1_20261014/native.mp4",
+      "bytes": 635378,
+      "sha256": "e81c7b9a166a56b469f4842330c95902fee370b2270528e53d09ab1a3041b815",
+      "public_path": "assets/e81c7b9a166a56b469f48423.mp4",
+      "original_attachment_anchor": "item-e81c7b9a166a56b469f4"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/joyai_endpoint_anchor_exp/recordings/1791893073_1/output_0000.mp4",
+      "bytes": 4604098,
+      "sha256": "e99f7fe53094fc5b741d353f008cec31def708ed0de834e06f9a228075cba59d",
+      "public_path": "assets/e99f7fe53094fc5b741d353f.mp4",
+      "original_attachment_anchor": "item-e99f7fe53094fc5b741d"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case14_man_studio_dance/native.mp4",
+      "bytes": 70751,
+      "sha256": "ec66a91d587bebe69c6661896c83ca4d1cb127be050d35b902ef818d0996e9d3",
+      "public_path": "assets/ec66a91d587bebe69c666189.mp4",
+      "original_attachment_anchor": "item-ec66a91d587bebe69c66"
+    },
+    {
+      "source": "results/stage23_endpoint_required_landscape_20261013/raw/wan/stage3/case13_woman_rooftop_dance/actual_endpoint_latent_anchor/native.mp4",
+      "bytes": 6950512,
+      "sha256": "ee983bd40dd5cb24d81f05187ef646a51d277c15ccaf94dac6dae141ccda128e",
+      "public_path": "assets/ee983bd40dd5cb24d81f0518.mp4",
+      "original_attachment_anchor": "item-ee983bd40dd5cb24d81f"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case14_man_studio_dance/native.mp4",
+      "bytes": 2659492,
+      "sha256": "f1f7bbc6e91cac918a80cca63469838acb07cffeba140701c7976949a5644cba",
+      "public_path": "assets/f1f7bbc6e91cac918a80cca6.mp4",
+      "original_attachment_anchor": "item-f1f7bbc6e91cac918a80"
+    },
+    {
+      "source": "results/stage23_basemodel_v2_20261012/raw/depthdirector/preprocess/case13_woman_rooftop_dance/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "bytes": 8541419,
+      "sha256": "f3115731d7b6c9535e33aa3ce632498e184e57ee5bb0ddc0538b542eb1b75b18",
+      "public_path": "assets/f3115731d7b6c9535e33aa3c.mp4",
+      "original_attachment_anchor": "item-f3115731d7b6c9535e33"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/recam/stage2/case05_person_yacht_jump/native.mp4",
+      "bytes": 127343,
+      "sha256": "fa9234eaf9bfd7a6ba41f5d40e07e884f10b0a8883e8862d5b259acd7ea93b9e",
+      "public_path": "assets/fa9234eaf9bfd7a6ba41f5d4.mp4",
+      "original_attachment_anchor": "item-fa9234eaf9bfd7a6ba41"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/hunyuan/stage3/case10_cat_pounce/remaining12_actual_endpoint_v1_20261015/native.mp4",
+      "bytes": 239209,
+      "sha256": "fbc3dbd462363f7168539706578bb3653e6f608c91320f13978ade4f1869ef06",
+      "public_path": "assets/fbc3dbd462363f7168539706.mp4",
+      "original_attachment_anchor": "item-fbc3dbd462363f716853"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/redirector/stage2/case15_woman_studio_dance/native.mp4",
+      "bytes": 1156605,
+      "sha256": "fe9e21a6153936a5d0756b5d3c14c5aec355407c9f09ffe2069794241d560284",
+      "public_path": "assets/fe9e21a6153936a5d0756b5d.mp4",
+      "original_attachment_anchor": "item-fe9e21a6153936a5d075"
+    },
+    {
+      "source": "results/stage23_remaining12_20261015/raw/gen3c_prompt/stage2/case02_person_rock_jump/native.mp4",
+      "bytes": 1524891,
+      "sha256": "ff968722074ceef25c1afa9a99e57140749786cd78cfeb5a9dbd16e23536f76f",
+      "public_path": "assets/ff968722074ceef25c1afa9a.mp4",
+      "original_attachment_anchor": "item-ff968722074ceef25c1a"
+    }
+  ]
+}

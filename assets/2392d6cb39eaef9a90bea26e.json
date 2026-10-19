@@ -1,0 +1,19 @@
+{
+  "variant": "custom_inference_only_latent_anchor",
+  "official_code_edited": false,
+  "weights_edited": false,
+  "endpoint_image": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/inputs/redirector/case11_man_contemporary_dance/stage2_actual_final_native.png",
+  "endpoint_image_sha256": "5eee11d553b334879ed12d2007d9e977c338e9023f52975d8e7aced61cd8b23c",
+  "postdecode_frame_replacement": false,
+  "pin_count": 50,
+  "sampling_intervention": "After every official FlowMatchScheduler.step, first time-latent is set to (1-sigma_next)*VAE(actual Stage2 endpoint)+sigma_next*initial_noise. The same initial noise is reused; final sigma=0 pins decoded first latent. Source-video action latent, camera condition, model weights and all other latents remain native.",
+  "vae_endpoint_latent_shape": [
+    1,
+    16,
+    1,
+    60,
+    104
+  ],
+  "last_sigma_next": 0.0,
+  "status": "completed"
+}

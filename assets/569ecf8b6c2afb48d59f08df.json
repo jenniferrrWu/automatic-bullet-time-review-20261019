@@ -1,0 +1,22 @@
+{
+  "case_id": "case04_person_water_jump",
+  "model": "World in World",
+  "stage": 3,
+  "status": "generated_pending_visual_review",
+  "strict_stage_pass": false,
+  "stage2_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/raw/case04_direct_tstar_singlepass_cgar_2gpu_native.mp4",
+  "stage2_final_frame_index": 79,
+  "actual_stage2_terminal_image": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/inputs/case04_stage2_native_end_frame79.png",
+  "actual_stage2_terminal_sha256": "a7401bb7caef0796eb41fc73f20e737d6a9b2519f4e9e15757bf6367761ad0a9",
+  "source_post_frames": [
+    525,
+    682
+  ],
+  "source_post_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/source_post/case04_person_water_jump.mp4",
+  "official_interface_limitation": "Official --edit guarantees same-framing edits only; the new-view Stage2 terminal frame is outside that guarantee.",
+  "sampling_anchor_audit": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case04_person_water_jump/sampling_anchor_audit.json",
+  "postdecode_frame_replacement": false,
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case04_person_water_jump/case04_person_water_jump_anchor_v2.mp4",
+  "expected_native_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/worldinworld/endpoint_anchor_v2_20261014/case04_person_water_jump/case04_person_water_jump_anchor_v2.mp4",
+  "inference_s": 436.9
+}
